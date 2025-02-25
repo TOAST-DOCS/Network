@@ -1,11 +1,65 @@
 ## Network > Release Notes
 
+### March 4, 2025
+
+#### Feature Updates
+
+##### Service Gateway
+* Improved so that you can create Service Gateway by specifying an IP address.
+
+##### Load Balancer
+* Improved so that you can refine settings for L7 Redirect URL in L7 policies.
+* Improved so that you can check for status for a port number specified for each member, rather than a fixed port number per member group.
+
+##### Flow Log
+* Added the feature to create Flow Log for attachments in Transit Hub.
+* Added VPC and Subnet to Flow Log Collection Target.
+
+##### Routing
+* Added a description field  to Route. You can enter a value when creating or changing a route, and it will appear in the route information.
+* Added the feature to change the CIDR, gateway entry for a route.
+
+
+### November 26, 2024
+
+#### Feature Updates
+
+##### Peering Gateway
+* Added the description field to peering. When you create or change a peering, you can enter a description for that peering, which appears in the peering basic information.
+
+##### Flow Log
+* Added Gzip compression feature.
+* Improved to allow users to select only the statistical information items that they want to record from the ones supported by Flow Log. For the supported statistical items, see [Flowlog Overview](/Network/Flow%20Log/en/overview/).
+
+
+##### Flow Log
+* Added the Flow Log service. Flow Log allows you to collect and store information about IP traffic sent to and received from a network interface.
+    * Flow Log is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
+
+##### Routing
+* Added API to get gateway information associated with routing tables to the Public API. See the [VPC API Guide](/Network/VPC/en/public-api/).
+
+##### VPN Gateway
+* Added support for Diffie-Hellman groups 14,15,16,17,18,19,20,21,27,28.
+
+
+#### Feature Updates
+
+##### Load Balancer
+* You can specify a port number per member.
+
+##### Region Peering
+* Added the feature to attach to VPCs created in other projects.
+
+##### Transit Hub
+* Added the feature to share multicast domains to other projects. You can have multicast communication between VPCs created in different projects.
+
 ### May 28, 2024
 
 #### Added Features
 
 #### Load Balancer
-* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/zh/console-guide/).
+* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
 
 #### VPN Gateway
 * Added Cisco - Firepower 1000 Series to the peer gateway equipment.
@@ -15,7 +69,7 @@
 * Integrated Network ACL with CloudTrail.
 
 ##### Service Gateway
-* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/zh/public-api/).
+* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
 
 ##### DNS Plus
 * Added the feature to set the header for health check requests, health check interval, maximum response latency (timeout), and maximum number of retries in GSLB health checks.
@@ -30,7 +84,7 @@
 #### Added Features
 
 ##### Transit Hub
-* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](/Network/Transit%20Hub/zh/public-api/).
+* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
 
 ### March 12, 2024
 
@@ -49,7 +103,7 @@
 
 ##### Load Balancer
 * Added the feature to protect load balancer from deletion.
-* Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/zh/Network/Load%20Balancer/en/public-api/).
+* Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/public-api/).
 
 #### Feature Updates
 
@@ -92,11 +146,11 @@
 
 ##### VPC
 
-* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/).
+* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/en/Network/VPC/en/public-api/).
 
 ##### Network ACL
 
-* [Pyeongchon region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/zh/public-api/).
+* [Pyeongchon region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/en/Network/Network%20ACL/en/public-api/).
 
 ### May 30, 2023
 
@@ -121,7 +175,7 @@
 
 ##### VPC
 
-* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/). 
+* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/en/Network/VPC/en/public-api/). 
 
 ##### VPC, Floating IP, Security Groups, Load Balancer
 
@@ -156,6 +210,14 @@
 
 * Added a supported service
     * NCR
+
+### July 26, 2022
+
+#### Added Features
+
+##### Load Balancer
+
+* Added the feature to change host header field values for health checks.
 
 ### June 30, 2022
 
