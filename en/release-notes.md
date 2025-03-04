@@ -1,5 +1,25 @@
 ## Network > Release Notes
 
+### March 4, 2025
+
+#### Feature Updates
+
+##### Service Gateway
+* Improved so that you can create Service Gateway by specifying an IP address.
+
+##### Load Balancer
+* Improved so that you can refine settings for L7 Redirect URL in L7 policies.
+* Improved so that you can check for status for a port number specified for each member, rather than a fixed port number per member group.
+
+##### Flow Log
+* Added the feature to create Flow Log for attachments in Transit Hub.
+* Added VPC and Subnet to Flow Log Collection Target.
+
+##### Routing
+* Added a description field  to Route. You can enter a value when creating or changing a route, and it will appear in the route information.
+* Added the feature to change the CIDR, gateway entry for a route.
+
+
 ### November 26, 2024
 
 #### Feature Updates
