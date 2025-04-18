@@ -10,6 +10,8 @@
 #### Security Groups
 * Public API에 Security Groups 연결 정보 조회 API가 추가되었습니다. [Security Groups API 가이드](/Network/Security%20Groups/ko/public-api/)를 참고하세요.
 
+##### Internet Gateway
+* Public API에 Internet Gateway 관련 API가 추가되었습니다. [Internet Gateway API 가이드](/Network/Internet%20Gateway/ko/public-api/)를 참고하세요.
 
 ### 2025. 03. 04.
 
