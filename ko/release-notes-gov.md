@@ -2,12 +2,12 @@
 
 ### 2025. 06. 05
 
-#### 기능 개선
+#### 기능 추가
 
 ##### NAT Gateway
 * Public API에 NAT Gateway 관련 API가 추가되었습니다. [NAT Gateway API 가이드](/Network/NAT%20Gateway/ko/public-api-gov/)를 참고하세요.
 
-#### Security Groups
+##### Security Groups
 * Public API에 Security Groups 연결 정보 조회 API가 추가되었습니다. [Security Groups API 가이드](/Network/Security%20Groups/ko/public-api-gov/)를 참고하세요.
 
 ##### Internet Gateway
