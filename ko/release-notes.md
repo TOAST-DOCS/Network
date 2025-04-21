@@ -19,6 +19,13 @@
 ##### Floating IP
 * 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
+##### Flow Log
+* Region peering gateway, Project peering gateway, Colocation gateway의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
+* Flow Log의 파일을 OBS에서 저장할 때, 폴더와 파일 이름을 자유롭게 편집할 수 있도록 개선되었습니다.
+
+##### Load Balancer
+* TERMINATED_HTTPS에서 다수의 인증서를 쉽게 등록할 수 있도록 화면이 개선되었습니다.
+
 
 ### 2025. 03. 04.
 
