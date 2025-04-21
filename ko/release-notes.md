@@ -13,11 +13,14 @@
 ##### Internet Gateway
 * Public API에 Internet Gateway 관련 API가 추가되었습니다. [Internet Gateway API 가이드](/Network/Internet%20Gateway/ko/public-api/)를 참고하세요.
 
+##### Colocation Gateway
+* Public API에 Colocation Gateway 관련 API가 추가되었습니다. [Colocation Gateway API 가이드](/Network/Colocation%20Gateway/ko/public-api/)를 참고하세요.
+
 ##### Private DNS
 * Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api/)를 참고하세요.
 
 ##### Floating IP
-* 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](Network/Floating%20IP/ko/console-guide/)를 참고하세요.
+* 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](Network/Floating%20IP/ko/console-guide/)를 참고하세요.z
 
 ##### Flow Log
 * Region peering gateway, Project peering gateway, Colocation gateway의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
