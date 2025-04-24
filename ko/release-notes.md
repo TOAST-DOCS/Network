@@ -29,7 +29,7 @@
 * v2가 출시됨에 따라 v1 VPN 게이트웨이는 신규 생성이 제한됩니다.
 
 ##### Flow Log
-* Region peering gateway, Project peering gateway, Colocation gateway의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
+* Region peering gateway, Project peering gateway, Colocation gateway, 로드 밸런서의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
 
 #### 기능 개선
 ##### Flow Log
