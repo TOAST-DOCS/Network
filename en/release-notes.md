@@ -1,13 +1,5 @@
 ## Network > Release Notes
 
-### April 29, 2025
-
-#### Feature Updates
-
-##### DNS Plus
-* Changed the minimum value of the recordset TTL from 1 to 10.
-
-
 ### March 4, 2025
 
 #### Feature Updates

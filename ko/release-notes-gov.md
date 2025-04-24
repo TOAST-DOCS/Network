@@ -1,33 +1,5 @@
 ## Network > 릴리스 노트
 
-### 2025. 06. 05
-
-#### 기능 추가
-
-##### NAT Gateway
-* Public API에 NAT Gateway 관련 API가 추가되었습니다. [NAT Gateway API 가이드](/Network/NAT%20Gateway/ko/public-api-gov/)를 참고하세요.
-
-##### Security Groups
-* Public API에 Security Groups 연결 정보 조회 API가 추가되었습니다. [Security Groups API 가이드](/Network/Security%20Groups/ko/public-api-gov/)를 참고하세요.
-
-##### Internet Gateway
-* Public API에 Internet Gateway 관련 API가 추가되었습니다. [Internet Gateway API 가이드](/Network/Internet%20Gateway/ko/public-api-gov/)를 참고하세요.
-
-##### Colocation Gateway
-* Public API에 Colocation Gateway 관련 API가 추가되었습니다. [Colocation Gateway API 가이드](/Network/Colocation%20Gateway/ko/public-api-gov/)를 참고하세요.
-
-##### Private DNS
-* Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api-gov/)를 참고하세요.
-
-
-### 2025. 04. 29.
-
-#### 기능 변경
-
-##### DNS Plus
-* 레코드 세트 TTL의 최솟값을 1에서 10으로 변경하였습니다.
-
-
 ### 2025. 03. 11.
 
 #### 기능 개선
