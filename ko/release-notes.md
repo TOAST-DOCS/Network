@@ -23,12 +23,6 @@
 ##### Floating IP
 * 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
-##### VPN Gateway
-* v2 출시가 되었습니다.
-* VPN 게이트웨이 생성 시 로컬 게이트웨이 주소가 할당되고 콘솔에서 확인이 가능합니다.
-* 하나의 VPC에서 여러 피어 게이트웨이 연결을 설정할 수 있습니다.
-* v2가 출시됨에 따라 v1 VPN 게이트웨이는 신규 생성이 제한됩니다.
-
 ##### Flow Log
 * Region peering gateway, Project peering gateway, Colocation gateway, 로드 밸런서의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
 
