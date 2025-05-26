@@ -20,7 +20,7 @@
 * Public APIにPrivate DNS関連APIを追加しました。 [Private DNS APIガイド](/Network/Private%20DNS/ja/public-api/)を参照してください。
 
 ##### Floating IP
-* フローティングIPにラベル設定機能が追加されました。 [Floating IPコンソール使用ガイド](Network/Floating%20IP/ja/console-guide/)を参照してください。
+* フローティングIPにラベル設定機能が追加されました。 [Floating IPコンソール使用ガイド](/Network/Floating%20IP/ja/console-guide/)を参照してください。
 
 ##### Flow Log
 * Region peering gateway, Project peering gateway, Colocation gatewayのネットワークインターフェースを対象にFlow Logを作成できるように機能を追加しました。
