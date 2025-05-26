@@ -1,5 +1,35 @@
 ## Network > リリースノート
 
+### 2025. 05. 27.
+
+#### 機能追加
+
+##### NAT Gateway
+* Public APIにNAT Gateway関連APIを追加しました。 [NAT Gateway APIガイド](/Network/NAT%20Gateway/ja/public-api/)を参照してください。
+
+##### Security Groups
+* Public APIにSecurity Groups接続情報照会APIを追加しました。 [Security Groups APIガイド](/Network/Security%20Groups/ja/public-api/)を参照してください。
+
+##### Internet Gateway
+* Public APIにInternet Gateway関連APIを追加しました。 [Internet Gateway APIガイド](/Network/Internet%20Gateway/ja/public-api/)を参照してください。
+
+##### Colocation Gateway
+* Public APIにColocation Gateway関連APIを追加しました。 [Colocation Gateway APIガイド](/Network/Colocation%20Gateway/ja/public-api/)を参照してください。
+
+##### Private DNS
+* Public APIにPrivate DNS関連APIを追加しました。 [Private DNS APIガイド](/Network/Private%20DNS/ja/public-api/)を参照してください。
+
+##### Floating IP
+* フローティングIPにラベル設定機能が追加されました。 [Floating IPコンソール使用ガイド](Network/Floating%20IP/ja/console-guide/)を参照してください。
+
+##### Flow Log
+* Region peering gateway, Project peering gateway, Colocation gatewayのネットワークインターフェースを対象にFlow Logを作成できるように機能を追加しました。
+
+#### 機能改善
+##### Flow Log
+* Flow LogのファイルをOBSに保存する際、フォルダとファイル名を自由に編集できるように改善しました。
+
+  
 ### 2025. 04. 29.
 
 #### 機能変更
