@@ -1,5 +1,15 @@
 ## Network > 릴리스 노트
 
+### 2025. 05. 29.
+
+#### 기능 추가
+
+##### Security Groups
+* 보안 규칙 대량 생성, 보안 규칙 목록 다운로드 기능이 추가되었습니다.
+
+##### Floating IP
+* 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
+
 ### 2025. 03. 06.
 
 #### 기능 개선
