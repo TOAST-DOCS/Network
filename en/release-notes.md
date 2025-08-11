@@ -6,7 +6,7 @@
 
 ##### VPN Gateway
 * v2 has been released.
-* The Local gateway address is assigned and can be checked in the console when creating a VAPN gateway.
+* The Local gateway address is assigned and can be checked in the console when creating a VPN gateway.
 * You can set multiple peer gateway connections in one VPC.
 * You can set one peer gateway connection in multiple VPCs from the same project.
 * Supported IKE v2 connection.
