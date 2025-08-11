@@ -1,5 +1,24 @@
 ## Network > Release Notes
 
+### August 26, 2025
+
+#### Added Features
+
+##### VPN Gateway
+* v2 has been released.
+* The Local gateway address is assigned and can be checked in the console when creating a VAPN gateway.
+* You can set multiple peer gateway connections in one VPC.
+* You can set one peer gateway connection in multiple VPCs from the same project.
+* Supported IKE v2 connection.
+* VPN connections are available between regions where VPN gateway services are provided (The device is set to Fortinet - FortiGate Series).
+* New creation of v1 VPN gateway is restricted as v2 has been released.
+
+##### Load Balancer
+* Added support for checking metrics such as the Load Balancer's CPU usage, listener-level statistics, and socket connection status with the Cloud Monitoring service.
+
+
+## Network > Release Notes
+
 ### April 29, 2025
 
 #### Feature Updates
