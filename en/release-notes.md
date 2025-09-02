@@ -17,7 +17,44 @@
 * Added support for checking metrics such as the Load Balancer's CPU usage, listener-level statistics, and socket connection status with the Cloud Monitoring service.
 
 
-## Network > Release Notes
+### May 27, 2025
+
+#### Added Features
+
+##### NAT Gateway
+* Added NAT Gateway-related API to the Public API. Refer to [NAT Gateway API Guide](/Network/NAT%20Gateway/ko/public-api/).
+
+##### Security Groups
+* Added API for querying Security Groups connection information to the Public API. Refer to [Security Groups API Guide](/Network/Security%20Groups/ko/public-api/).
+
+##### Internet Gateway
+* Added Internet Gateway-related API to the Public API. Refer to [Internet Gateway API Guide](/Network/Internet%20Gateway/ko/public-api/).
+
+##### Colocation Gateway
+* Added Colocation Gateway-related API to the Public API. Refer to [Colocation Gateway API Guide](/Network/Colocation%20Gateway/ko/public-api/).
+
+##### Private DNS
+* Added Private DNS-related API to the Public API. Refer to [Private DNS API Guide](/Network/Private%20DNS/ko/public-api/).
+
+##### Floating IP
+* Added label setting feature to floating IP. Refer to [Floating IP Console User Guide](Network/Floating%20IP/ko/console-guide/).
+
+##### VPN Gateway
+* v2 has been released.
+* When creating a VPN gateway, a local gateway address is assigned, and you can check it from a console.
+* You can configure multiple peer gateway connections from a single VPC.
+* As v2 has been released, new v1 VPN gateways will be restricted from creation.
+
+##### Flow Log
+* Added the feature to create Flow Logs for network interfaces of Region peering gateway, Project peering gateway, and Colocation gateway.
+
+#### Feature Updates
+##### Flow Log
+* Improved that you can freely edit the folder and file names when saving Flow Log files to OBS.
+
+##### Load Balancer
+* Improved the screen that makes it easier to register multiple certificates in TERMINATED_HTTPS.
+
 
 ### April 29, 2025
 
