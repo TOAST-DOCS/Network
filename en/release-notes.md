@@ -1,5 +1,51 @@
 ## Network > Release Notes
 
+### August 26, 2025
+
+#### Added Features
+
+##### VPN Gateway
+* v2 has been released.
+* The Local gateway address is assigned and can be checked in the console when creating a VPN gateway.
+* You can set multiple peer gateway connections in one VPC.
+* You can set one peer gateway connection in multiple VPCs from the same project.
+* Supported IKE v2 connection.
+* VPN connections are available between regions where VPN gateway services are provided (The device is set to Fortinet - FortiGate Series).
+* New creation of v1 VPN gateway is restricted as v2 has been released.
+
+##### Load Balancer
+* Added support for checking metrics such as the Load Balancer's CPU usage, listener-level statistics, and socket connection status with the Cloud Monitoring service.
+
+### May 27, 2025
+
+#### Added Features
+
+##### NAT Gateway
+* Added NAT Gateway-related API to the Public API. Refer to [NAT Gateway API Guide](/Network/NAT%20Gateway/en/public-api/).
+
+##### Security Groups
+* Added API for querying Security Groups connection information to the Public API. Refer to [Security Groups API Guide](/Network/Security%20Groups/en/public-api/).
+
+##### Internet Gateway
+* Added Internet Gateway-related API to the Public API. Refer to [Internet Gateway API Guide](/Network/Internet%20Gateway/en/public-api/).
+
+##### Colocation Gateway
+* Added Colocation Gateway-related API to the Public API. Refer to [Colocation Gateway API Guide](/Network/Colocation%20Gateway/en/public-api/).
+
+##### Private DNS
+* Added Private DNS-related API to the Public API. Refer to [Private DNS API Guide](/Network/Private%20DNS/en/public-api/).
+
+##### Floating IP
+* Added label setting feature to floating IP. Refer to [Floating IP Console User Guide](Network/Floating%20IP/en/console-guide/).
+
+##### Flow Log
+* Added the feature to create Flow Logs for network interfaces of Region peering gateway, Project peering gateway, and Colocation gateway.
+
+#### Feature Updates
+##### Flow Log
+* Improved that you can freely edit the folder and file names when saving Flow Log files to OBS.
+
+
 ### April 29, 2025
 
 #### Feature Updates

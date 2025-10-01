@@ -1,5 +1,51 @@
 ## Network > リリースノート
 
+### 2025. 08. 26.
+
+#### 機能追加
+
+##### VPN Gateway
+* v2がリリースされました。
+* VPNゲートウェイを作成すると、ローカルゲートウェイのアドレスが割り当てられ、コンソールで確認できるようになります。
+* 1つのVPCから複数のピアゲートウェイへの接続を設定できます。
+* 同じプロジェクト内であれば、複数のVPCから1つのピアゲートウェイへの接続設定が可能です。
+* IKE v2接続がサポートされます。
+* VPNゲートウェイサービスが提供されているリージョン間でVPN接続が可能です。(機器はFortinet - Fortigate Seriesに設定)
+* v2のリリースに伴い、v1 VPNゲートウェイの新規作成は制限されます。
+
+##### Load Balancer
+ロードバランサーのCPU使用率、リスナー単位の統計、ソケットの接続状態といった指標をCloud Monitoringサービスで確認できる機能を追加しました。
+
+### 2025. 05. 27.
+
+#### 機能追加
+
+##### NAT Gateway
+* Public APIにNAT Gateway関連APIを追加しました。 [NAT Gateway APIガイド](/Network/NAT%20Gateway/ja/public-api/)を参照してください。
+
+##### Security Groups
+* Public APIにSecurity Groups接続情報照会APIを追加しました。 [Security Groups APIガイド](/Network/Security%20Groups/ja/public-api/)を参照してください。
+
+##### Internet Gateway
+* Public APIにInternet Gateway関連APIを追加しました。 [Internet Gateway APIガイド](/Network/Internet%20Gateway/ja/public-api/)を参照してください。
+
+##### Colocation Gateway
+* Public APIにColocation Gateway関連APIを追加しました。 [Colocation Gateway APIガイド](/Network/Colocation%20Gateway/ja/public-api/)を参照してください。
+
+##### Private DNS
+* Public APIにPrivate DNS関連APIを追加しました。 [Private DNS APIガイド](/Network/Private%20DNS/ja/public-api/)を参照してください。
+
+##### Floating IP
+* フローティングIPにラベル設定機能が追加されました。 [Floating IPコンソール使用ガイド](/Network/Floating%20IP/ja/console-guide/)を参照してください。
+
+##### Flow Log
+* Region peering gateway, Project peering gateway, Colocation gatewayのネットワークインターフェースを対象にFlow Logを作成できるように機能を追加しました。
+
+#### 機能改善
+##### Flow Log
+* Flow LogのファイルをOBSに保存する際、フォルダとファイル名を自由に編集できるように改善しました。
+
+  
 ### 2025. 04. 29.
 
 #### 機能変更
