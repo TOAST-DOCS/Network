@@ -37,7 +37,7 @@
 * Added Private DNS-related API to the Public API. Refer to [Private DNS API Guide](/Network/Private%20DNS/en/public-api/).
 
 ##### Floating IP
-* Added label setting feature to floating IP. Refer to [Floating IP Console User Guide](Network/Floating%20IP/en/console-guide/).
+* Added label setting feature to floating IP. Refer to [Floating IP Console User Guide](/Network/Floating%20IP/en/console-guide/).
 
 ##### Flow Log
 * Added the feature to create Flow Logs for network interfaces of Region peering gateway, Project peering gateway, and Colocation gateway.
