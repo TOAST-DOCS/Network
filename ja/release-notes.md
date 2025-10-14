@@ -25,6 +25,7 @@
 
 ##### Security Groups
 * Public APIにSecurity Groups接続情報照会APIを追加しました。 [Security Groups APIガイド](/Network/Security%20Groups/ja/public-api/)を参照してください。
+* セキュリティルールの一括作成とセキュリティルール一覧のダウンロード機能を追加しました。
 
 ##### Internet Gateway
 * Public APIにInternet Gateway関連APIを追加しました。 [Internet Gateway APIガイド](/Network/Internet%20Gateway/ja/public-api/)を参照してください。
