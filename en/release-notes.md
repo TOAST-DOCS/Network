@@ -25,6 +25,7 @@
 
 ##### Security Groups
 * Added API for querying Security Groups connection information to the Public API. Refer to [Security Groups API Guide](/Network/Security%20Groups/en/public-api/).
+* Added the features to bulk create security rules and download a list of security rules.
 
 ##### Internet Gateway
 * Added Internet Gateway-related API to the Public API. Refer to [Internet Gateway API Guide](/Network/Internet%20Gateway/en/public-api/).
