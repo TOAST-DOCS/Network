@@ -7,6 +7,9 @@
 ##### VPN Gateway
 * VPN 연결된 VPC에 Transit Hub를 연결하면, Transit Hub를 통해 연결된 다른 프로젝트의 VPC에서도 온프레미스 네트워크와 VPN 통신을 지원합니다. (연결된 대역으로 VPN Connection은 추가 생성 필요)
 
+#### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
 ### 2025. 08. 26.
 
 #### 기능 추가
