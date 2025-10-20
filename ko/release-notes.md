@@ -7,6 +7,9 @@
 ##### VPN Gateway
 * VPN 연결된 VPC에 Transit Hub를 연결하면, 연결된 해당 프로젝트의 VPC에서도 온프레미스 네트워크와 VPN 통신을 지원합니다. Transit Hub 연결을 통해 추가되는 VPN 연결은 VPNGW가 만들어진 VPC의 연결 카운트 값을 증가시킵니다.(최대 VPC당 10개)
 
+#### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
 ### 2025. 08. 26.
 
 #### 기능 추가
