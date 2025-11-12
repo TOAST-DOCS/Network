@@ -1,5 +1,18 @@
 ## Network > Release Notes
 
+### November 25, 2025
+
+#### Added Features
+
+##### VPN Gateway
+* When you connect a Transit Hub to a VPC with a VPN connection, VPCs in other projects connected to the Transit Hub also support VPN communication with your on-premises network. (VPN Connection with connected range requires additional creation)
+
+#### Service Gateway
+* Made improvements to allow users to create a fixed NAT IP when creating a Service Gateway.
+
+#### Traffic Mirroring
+* Added Traffic Mirroring related API to Public API. Refer to [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/ko/public-api/).
+
 ### August 26, 2025
 
 #### Added Features
