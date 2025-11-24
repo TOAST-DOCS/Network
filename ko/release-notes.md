@@ -10,7 +10,7 @@
 ##### Service Gateway
 * Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
 
-#### Traffic Mirroring
+##### Traffic Mirroring
 * Public API에 Traffic Mirroring 관련 API가 추가되었습니다. [Traffic Mirroring API 가이드](/Network/Traffic%20Mirroring/ko/public-api/)를 참고하세요.
 
 ##### Load Balancer
