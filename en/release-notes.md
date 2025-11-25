@@ -13,6 +13,11 @@
 #### Traffic Mirroring
 * Added Traffic Mirroring related API to Public API. Refer to [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/ko/public-api/).
 
+### Feature Updates
+
+##### DNS Plus
+*  Made modification so that the maximum length of a record value in the TXT record set type has been changed from 255 bytes to 4,096 bytes.
+
 ### August 26, 2025
 
 #### Added Features
