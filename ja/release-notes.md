@@ -1,5 +1,23 @@
 ## Network > リリースノート
 
+### 2025. 11. 25.
+
+#### 機能追加
+
+##### VPN Gateway
+* VPNが接続されたVPCにTransit Hubを接続すると、Transit Hubに接続された他のプロジェクトのVPCからもオンプレミスネットワークとのVPN通信をサポートします。(接続された帯域へのVPN Connectionの追加作成が必要です)
+
+##### Service Gateway
+* Service Gatewayを作成する際に、ユーザーがNAT IPを固定して作成できるよう改善しました。
+
+##### Traffic Mirroring
+* Public APIにTraffic Mirroring関連のAPIが追加されました。[Traffic Mirroring API ガイド](/Network/Traffic%20Mirroring/ko/public-api/)をご参照ください。
+
+#### 機能変更
+
+##### DNS Plus
+*  TXTレコードセットタイプのレコード値の最大長を、255バイトから4096バイトに変更しました。
+
 ### 2025. 08. 26.
 
 #### 機能追加

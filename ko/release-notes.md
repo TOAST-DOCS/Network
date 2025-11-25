@@ -1,5 +1,32 @@
 ## Network > 릴리스 노트
 
+### 2025. 11. 25.
+
+#### 기능 추가
+
+##### VPN Gateway
+* VPN이 연결된 VPC에 Transit Hub를 연결하면 Transit Hub로 연결된 다른 프로젝트의 VPC에서도 온프레미스 네트워크와 VPN 통신을 지원합니다. (연결된 대역으로 VPN Connection은 추가 생성 필요)
+
+##### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
+##### Traffic Mirroring
+* Public API에 Traffic Mirroring 관련 API가 추가되었습니다. [Traffic Mirroring API 가이드](/Network/Traffic%20Mirroring/ko/public-api/)를 참고하세요.
+
+##### Load Balancer
+* 리스너별 사용자 정의 응답 설정 기능이 추가되었습니다.
+* X-Forwarded-* 헤더 활성/비활성화 기능이 추가되었습니다.
+
+#### 기능 개선
+
+##### Load Balancer 
+* 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
+
+#### 기능 변경
+
+##### DNS Plus
+*  TXT 레코드 세트 타입의 레코드 값 최대 길이를 255 바이트에서 4096 바이트로 변경하였습니다.
+
 ### 2025. 08. 26.
 
 #### 기능 추가
