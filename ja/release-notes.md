@@ -13,6 +13,11 @@
 ##### Traffic Mirroring
 * Public APIにTraffic Mirroring関連のAPIが追加されました。[Traffic Mirroring API ガイド](/Network/Traffic%20Mirroring/ko/public-api/)をご参照ください。
 
+#### 機能変更
+
+##### DNS Plus
+*  TXTレコードセットタイプのレコード値の最大長を、255バイトから4096バイトに変更しました。
+
 ### 2025. 08. 26.
 
 #### 機能追加
