@@ -7,16 +7,25 @@
 ##### VPN Gateway
 * VPNが接続されたVPCにTransit Hubを接続すると、Transit Hubに接続された他のプロジェクトのVPCからもオンプレミスネットワークとのVPN通信をサポートします。(接続された帯域へのVPN Connectionの追加作成が必要です)
 
-##### Service Gateway
+###### Service Gateway
 * Service Gatewayを作成する際に、ユーザーがNAT IPを固定して作成できるよう改善しました。
 
-##### Traffic Mirroring
+###### Traffic Mirroring
 * Public APIにTraffic Mirroring関連のAPIが追加されました。[Traffic Mirroring API ガイド](/Network/Traffic%20Mirroring/ko/public-api/)をご参照ください。
 
 #### 機能変更
 
 ##### DNS Plus
 *  TXTレコードセットタイプのレコード値の最大長を、255バイトから4096バイトに変更しました。
+
+##### Load Balancer
+* リスナーごとのユーザー定義レスポンス設定機能が追加されました。
+* X-Forwarded-* ヘッダの有効化・無効化機能が追加されました。
+
+#### 機能改善
+
+##### Load Balancer 
+* 複数のSSL証明書の登録・管理機能がコンソールでサポートされます。
 
 ### 2025. 08. 26.
 
