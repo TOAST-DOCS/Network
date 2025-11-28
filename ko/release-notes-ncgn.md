@@ -8,6 +8,9 @@
 * 리스너별 사용자 정의 응답 설정 기능이 추가되었습니다.
 * X-Forwarded-* 헤더 활성/비활성화 기능이 추가되었습니다.
 
+##### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
 #### 기능 개선
 
 ##### Load Balancer 
@@ -21,7 +24,7 @@
 
 - 보안 규칙 대량 생성, 보안 규칙 목록 다운로드 기능이 추가되었습니다.
 
-##### Floating IP
+##### Floating IPㅎ
 
 - 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
