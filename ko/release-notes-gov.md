@@ -3,6 +3,9 @@
 ### 2025. 12. 02.
 #### 기능 추가 
 
+##### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
 ##### Load Balancer
 * 리스너별 사용자 정의 응답 설정 기능이 추가되었습니다.
 * X-Forwarded-* 헤더 활성/비활성화 기능이 추가되었습니다.
