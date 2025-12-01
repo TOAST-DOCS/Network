@@ -4,6 +4,9 @@
 
 #### 기능 추가
 
+##### Service Gateway
+* Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
+
 ##### Load Balancer
 
 - Public API에 Load Balancer 관련 API가 추가되었습니다. [Load Balancer API 가이드](/Network/Load%20Balancer/ko/public-api-ngovc)를 참고하세요.
