@@ -6,7 +6,7 @@
 
 ##### DNS Plus
 * Added API v2.0
-  * Added support for User Access Key tokens.
+    * Added support for User Access Key tokens.
 
 ### November 25, 2025
 

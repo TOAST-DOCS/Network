@@ -6,7 +6,7 @@
 
 ##### DNS Plus
 * API v2.0の追加
-  * User Access Keyトークンをサポートします。
+    * User Access Keyトークンをサポートします。
 
 ### 2025. 11. 25.
 
