@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### April 14, 2026
+
+#### Added Features
+
+##### DNS Plus
+* Added API v2.0
+    * Added support for User Access Key tokens.
+
 ### August 26, 2025
 
 #### Added Features
