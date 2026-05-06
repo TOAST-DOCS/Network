@@ -9,6 +9,13 @@
 * 스푸핑 방지 사용 중 특정 주소만 스푸핑을 허용하는 "추가 허용 주소" 설정 기능이 추가되었습니다. 
 * [Network Interface 콘솔 가이드](/Network/Network%20Interface/ko/console-guide/)를 참고하세요.
 
+#### 기능 개선
+
+##### Load Balancer
+* 재암호화 기능이 추가되었습니다. 멤버 그룹의 프로토콜로 HTTP_REENCRYPT를 선택하면 멤버로 전송 시 SSL 암호화 통신을 사용합니다.
+* HTTP Keepalive 비활성화 기능이 추가되었습니다. Keepalive 타임아웃 설정 시 '사용 안 함'을 선택하면 Keepalive가 비활성화됩니다.
+* SSL/TLS 암호화 정책 설정 기능이 추가되었습니다. SSL/TLS 암호화 스위트(Cipher Suite)를 사용자가 커스터마이징하여 사용할 수 있습니다.
+
 #### 기능 변경
 
 ##### VPC
