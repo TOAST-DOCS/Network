@@ -21,6 +21,11 @@
 * HTTP Keepalive 비활성화 기능이 추가되었습니다. Keepalive 타임아웃 설정 시 '사용 안 함'을 선택하면 Keepalive가 비활성화됩니다.
 * SSL/TLS 암호화 정책 설정 기능이 추가되었습니다. SSL/TLS 암호화 스위트(Cipher Suite)를 사용자가 커스터마이징하여 사용할 수 있습니다.
 
+##### Flow Log
+* 트래픽 경로(`traffic_path`) 필드가 추가되었습니다.
+    * 패킷이 통과한 네트워크 경로(VPC Local, Internet Gateway, VPN Gateway, VPC Peering, Region Peering, Project Peering, Service Gateway)를 정수 값으로 확인할 수 있습니다.
+    * [Flow Log 개요](/Network/Flow%20Log/ko/overview/)를 참고하세요.
+
 #### 기능 변경
 
 ##### VPC
