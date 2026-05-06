@@ -9,16 +9,22 @@
 * 스푸핑 방지 사용 중 특정 주소만 스푸핑을 허용하는 "추가 허용 주소" 설정 기능이 추가되었습니다. 
 * [Network Interface 콘솔 가이드](/Network/Network%20Interface/ko/console-guide/)를 참고하세요.
 
-##### Load Balancer(DSR)
+##### Load Balancer(DSR)                                                                       
 * Load Balancer(DSR) 신규 서비스가 추가되었습니다. DSR(Direct Server Return) 방식으로 동작하는 로드 밸런서 서비스를 제공합니다.
-* Load Balancer(DSR) 서비스는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
+	* Load Balancer(DSR)는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
 * [Load Balancer(DSR) 콘솔 가이드](/Network/Load%20Balancer(DSR)/ko/console-guide/)를 참고하세요.
+
+#### 기능 개선
+
+##### Load Balancer
+* 재암호화 기능이 추가되었습니다. 멤버 그룹의 프로토콜로 HTTP_REENCRYPT를 선택하면 멤버로 전송 시 SSL 암호화 통신을 사용하여 암호화 합니다.
+* HTTP Keepalive 비활성화 기능이 추가되었습니다. Keepalive 타임아웃 설정 시 '사용 안 함'을 선택하면 Keepalive가 비활성화됩니다.
+* SSL/TLS 암호화 정책 설정 기능이 추가되었습니다. SSL/TLS 암호화 스위트(Cipher Suite)를 사용자가 커스터마이징하여 사용할 수 있습니다.
 
 #### 기능 변경
 
 ##### VPC
 * 네트워크 상품 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성 VPC부터 적용됩니다.
-
 
 ### 2026. 04. 14.
 
