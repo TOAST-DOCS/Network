@@ -7,12 +7,12 @@
 ##### Network Interface
 * "소스/대상 확인" 기능의 이름을 "스푸핑 방지"로 변경하고 네트워크 인터페이스 생성, 변경 화면에서 설정하도록 위치를 이동하였습니다.
 * 스푸핑 방지 사용 중 특정 주소만 스푸핑을 허용하는 "추가 허용 주소" 설정 기능이 추가되었습니다. 
-* [Network Interface 콘솔 가이드](/Network/Network%20Interface/ko/console-guide/)를 참고하세요.
+* [Network Interface 콘솔 사용 가이드](/Network/Network%20Interface/ko/console-guide-gov/)를 참고하세요.
 
 ##### Load Balancer(DSR)
 * Load Balancer(DSR) 신규 서비스가 추가되었습니다. DSR(Direct Server Return) 방식으로 동작하는 로드 밸런서 서비스를 제공합니다.
 	* Load Balancer(DSR)는 한국(판교) 리전에서만 이용할 수 있습니다.
-* [Load Balancer(DSR) 콘솔 가이드](/Network/Load%20Balancer(DSR)/ko/console-guide/)를 참고하세요.
+* [Load Balancer(DSR) 콘솔 사용 가이드](/Network/Load%20Balancer(DSR)/ko/console-guide-gov/)를 참고하세요.
 
 #### 기능 개선
 
@@ -24,7 +24,7 @@
 #### 기능 변경
 
 ##### VPC
-* 네트워크 상품 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성 VPC부터 적용됩니다.
+* 네트워크 서비스 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성되는 VPC부터 적용됩니다.
 
 
 ### 2026. 04. 14.
