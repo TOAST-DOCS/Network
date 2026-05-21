@@ -1,5 +1,36 @@
 ## Network > Release Notes
 
+### May 27, 2026
+
+#### Added Features
+
+##### Network Interface
+* Renamed the "Source/Destination Check" feature to "Anti-Spoofing" and moved its configuration to the network interface creation and modification screens.
+* Added the "Additional Allowed Addresses" configuration feature, which allows spoofing for specific addresses while Anti-Spoofing is enabled.
+* See [Network Interface Console User Guide](/Network/Network%20Interface/ko/console-guide/).
+
+##### Load Balancer (DSR)
+* Added Load Balancer (DSR) as a new service. Provides a load balancer service that operates using the Direct Server Return (DSR) method.
+	* Load Balancer (DSR) is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
+* See [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/ko/console-guide/).
+
+#### Feature Updates
+
+##### Load Balancer
+* Added a re-encryption feature. Selecting `HTTP_REENCRYPT` as the protocol for a member group enables SSL encrypted communication when forwarding to members.
+* Added an HTTP Keepalive disable feature. Selecting "Disabled" when configuring the Keepalive timeout disables Keepalive.
+* Added an SSL/TLS encryption policy configuration feature. Users can customize the SSL/TLS cipher suite.
+
+##### Flow Log
+* Added the traffic path (`traffic_path`) field.
+    * The network path that a packet traversed (VPC Local, Internet Gateway, VPN Gateway, VPC Peering, Region Peering, Project Peering, Service Gateway) can be viewed as an integer value.
+    * See [Flow Log Overview](/Network/Flow%20Log/ko/overview/).
+
+#### Feature Updates
+
+##### VPC
+* The internal traffic handling method for VPCs has been partially changed to support network service integration. This change applies to newly created VPCs.
+
 ### April 14, 2026
 
 #### Added Features
