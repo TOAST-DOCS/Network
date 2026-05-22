@@ -7,12 +7,12 @@
 ##### Network Interface
 * 「ソース/宛先確認」機能の名前を「スプーフィング防止」に変更し、ネットワークインターフェースの作成、変更画面で設定するように位置を移動しました。
 * スプーフィング防止の使用中に、特定のアドレスのみスプーフィングを許可する「追加許可アドレス」設定機能が追加されました。 
-* [Network Interface コンソール使用ガイド](/Network/Network%20Interface/ko/console-guide/)を参照してください。
+* [Network Interface コンソール使用ガイド](/Network/Network%20Interface/ja/console-guide/)を参照してください。
 
 ##### Load Balancer(DSR)
 * 新規サービスとしてLoad Balancer(DSR)が追加されました。DSR(Direct Server Return)方式で動作するロードバランサーサービスを提供します。
 * Load Balancer(DSR)は、韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。
-* [Load Balancer(DSR) コンソール使用ガイド](/Network/Load%20Balancer(DSR)/ko/console-guide/)を参照してください。
+* [Load Balancer(DSR) コンソール使用ガイド](/Network/Load%20Balancer(DSR)/ja/console-guide/)を参照してください。
 
 #### 機能改善
 
@@ -24,7 +24,7 @@
 ##### Flow Log
 * トラフィック経路(`traffic_path`)フィールドが追加されました。
     * パケットが通過したネットワーク経路(VPC Local、Internet Gateway、VPN Gateway、VPC Peering、Region Peering、Project Peering、Service Gateway)を整数値で確認できます。
-    * [Flow Log 概要](/Network/Flow%20Log/ko/overview/)を参照してください。
+    * [Flow Log 概要](/Network/Flow%20Log/ja/overview/)を参照してください。
 
 #### 機能変更
 
@@ -50,7 +50,7 @@
 * Service Gatewayを作成する際に、ユーザーがNAT IPを固定して作成できるよう改善しました。
 
 ###### Traffic Mirroring
-* Public APIにTraffic Mirroring関連のAPIが追加されました。[Traffic Mirroring API ガイド](/Network/Traffic%20Mirroring/ko/public-api/)をご参照ください。
+* Public APIにTraffic Mirroring関連のAPIが追加されました。[Traffic Mirroring API ガイド](/Network/Traffic%20Mirroring/ja/public-api/)をご参照ください。
 
 ##### Load Balancer
 * リスナーごとのユーザー定義レスポンス設定機能が追加されました。
@@ -132,7 +132,7 @@
     * Flow Logは韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。
 
 ##### Routing
-* Public APIにルーティングテーブルと関連付けられたゲートウェイ情報照会APIが追加されました。 [VPC APIガイド](/Network/VPC/ko/public-api/)を参照してください。
+* Public APIにルーティングテーブルと関連付けられたゲートウェイ情報照会APIが追加されました。 [VPC APIガイド](/Network/VPC/ja/public-api/)を参照してください。
 
 ##### VPN Gateway
 * Diffie-Hellman groups 14,15,16,17,18,19,20,21,27,28をサポートします。

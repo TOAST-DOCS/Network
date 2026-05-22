@@ -7,12 +7,12 @@
 ##### Network Interface
 * Renamed the "Source/Destination Check" feature to "Anti-Spoofing" and moved its configuration to the network interface creation and modification screens.
 * Added the "Additional Allowed Addresses" configuration feature, which allows spoofing for specific addresses while Anti-Spoofing is enabled.
-* See [Network Interface Console User Guide](/Network/Network%20Interface/ko/console-guide/).
+* See [Network Interface Console User Guide](/Network/Network%20Interface/en/console-guide/).
 
 ##### Load Balancer (DSR)
 * Added Load Balancer (DSR) as a new service. Provides a load balancer service that operates using the Direct Server Return (DSR) method.
 	* Load Balancer (DSR) is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
-* See [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/ko/console-guide/).
+* See [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/en/console-guide/).
 
 #### Feature Updates
 
@@ -24,7 +24,7 @@
 ##### Flow Log
 * Added the traffic path (`traffic_path`) field.
     * The network path that a packet traversed (VPC Local, Internet Gateway, VPN Gateway, VPC Peering, Region Peering, Project Peering, Service Gateway) can be viewed as an integer value.
-    * See [Flow Log Overview](/Network/Flow%20Log/ko/overview/).
+    * See [Flow Log Overview](/Network/Flow%20Log/en/overview/).
 
 #### Feature Updates
 
@@ -50,7 +50,7 @@
 * Made improvements to allow users to create a fixed NAT IP when creating a Service Gateway.
 
 ##### Traffic Mirroring
-* Added Traffic Mirroring related API to Public API. Refer to [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/ko/public-api/).
+* Added Traffic Mirroring related API to Public API. Refer to [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/en/public-api/).
 
 ##### Load Balancer
 * Added the feature to configure custom response per listener.
