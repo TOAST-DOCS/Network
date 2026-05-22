@@ -1,5 +1,36 @@
 ## Network > リリースノート
 
+### 2026. 05. 27.
+
+#### 機能追加
+
+##### Network Interface
+* 「ソース/宛先確認」機能の名前を「スプーフィング防止」に変更し、ネットワークインターフェースの作成、変更画面で設定するように位置を移動しました。
+* スプーフィング防止の使用中に、特定のアドレスのみスプーフィングを許可する「追加許可アドレス」設定機能が追加されました。 
+* [Network Interface コンソール使用ガイド](/Network/Network%20Interface/ko/console-guide/)を参照してください。
+
+##### Load Balancer(DSR)
+* 新規サービスとしてLoad Balancer(DSR)が追加されました。DSR(Direct Server Return)方式で動作するロードバランサーサービスを提供します。
+* Load Balancer(DSR)は、韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。
+* [Load Balancer(DSR) コンソール使用ガイド](/Network/Load%20Balancer(DSR)/ko/console-guide/)を参照してください。
+
+#### 機能改善
+
+##### Load Balancer
+* 再暗号化機能が追加されました。メンバーグループのプロトコルとしてHTTP_REENCRYPTを選択すると、メンバーへの送信時にSSL暗号化通信を使用します。
+* HTTP Keepaliveの無効化機能が追加されました。Keepaliveタイムアウトの設定時に「使用しない」を選択すると、Keepaliveが無効化されます。
+* SSL/TLS暗号化ポリシー設定機能が追加されました。SSL/TLS暗号化スイート(Cipher Suite)をユーザーがカスタマイズして使用できます。
+
+##### Flow Log
+* トラフィック経路(`traffic_path`)フィールドが追加されました。
+    * パケットが通過したネットワーク経路(VPC Local、Internet Gateway、VPN Gateway、VPC Peering、Region Peering、Project Peering、Service Gateway)を整数値で確認できます。
+    * [Flow Log 概要](/Network/Flow%20Log/ko/overview/)を参照してください。
+
+#### 機能変更
+
+##### VPC
+* ネットワークサービスの連携をサポートするため、VPCの内部トラフィック処理方式が一部変更されました。新しく作成されるVPCから適用されます。
+
 ### 2026. 04. 14.
 
 #### 機能追加
