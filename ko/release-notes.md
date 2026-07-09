@@ -9,7 +9,7 @@
 	* 사용자 정의 엔드포인트는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
 
 ##### Load Balancer
-* HTTP/2 지원이 추가되었습니다. 리스너 프로토콜이 TERMINATED_HTTPS이고 멤버 그룹 프로토콜이 HTTP 또는 HTTP_REENCRYPT일 때 사용할 수 있습니다.
+* HTTP/2 지원 기능이 추가되었습니다. 리스너 프로토콜이 TERMINATED_HTTPS이고 멤버 그룹 프로토콜이 HTTP 또는 HTTP_REENCRYPT일 때 사용할 수 있습니다.
 	* 리스너와 멤버 그룹 설정 화면에서 프로토콜 버전을 선택할 수 있으며 HTTP/1이 기본으로 선택됩니다.
 * [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
