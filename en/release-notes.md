@@ -7,29 +7,29 @@
 ##### Network Interface
 * Renamed the "Source/Destination Check" feature to "Anti-Spoofing" and moved its configuration to the network interface creation and modification screens.
 * Added the "Additional Allowed Addresses" configuration feature, which allows spoofing for specific addresses while Anti-Spoofing is enabled.
-* See [Network Interface Console User Guide](/Network/Network%20Interface/en/console-guide/).
+* For more information, see the [Network Interface Console User Guide](/Network/Network%20Interface/en/console-guide/).
 
 ##### Load Balancer (DSR)
-* Added Load Balancer (DSR) as a new service. Provides a load balancer service that operates using the Direct Server Return (DSR) method.
+* Added the Load Balancer (DSR) service. It provides a load balancer that operates in Direct Server Return (DSR) mode.
 	* Load Balancer (DSR) is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
-* See [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/en/console-guide/).
+* For more information, see the [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/en/console-guide/).
 
 #### Feature Updates
 
 ##### Load Balancer
 * Added a re-encryption feature. Selecting `HTTP_REENCRYPT` as the protocol for a member group enables SSL encrypted communication when forwarding to members.
-* Added an HTTP Keepalive disable feature. Selecting "Disabled" when configuring the Keepalive timeout disables Keepalive.
-* Added an SSL/TLS encryption policy configuration feature. Users can customize the SSL/TLS cipher suite.
+* Added the HTTP Keepalive disable feature. Selecting "Disabled" when configuring the Keepalive timeout disables Keepalive.
+* Added the SSL/TLS encryption policy configuration feature. Users can customize the SSL/TLS cipher suite.
 
 ##### Flow Log
-* Added the traffic path (`traffic_path`) field.
+* Added the `traffic_path` field.
     * The network path that a packet traversed (VPC Local, Internet Gateway, VPN Gateway, VPC Peering, Region Peering, Project Peering, Service Gateway) can be viewed as an integer value.
-    * See [Flow Log Overview](/Network/Flow%20Log/en/overview/).
+    * For more information, see [Flow Log Overview](/Network/Flow%20Log/en/overview/).
 
 #### Feature Updates
 
 ##### VPC
-* The internal traffic handling method for VPCs has been partially changed to support network service integration. This change applies to newly created VPCs.
+* The internal traffic handling method for VPCs has been partially changed to support network service integration. This applies to newly created VPCs.
 
 ### April 14, 2026
 
@@ -37,84 +37,87 @@
 
 ##### DNS Plus
 * Added API v2.0
-    * Added support for User Access Key tokens.
+    * Supports User Access Key tokens.
 
 ### November 25, 2025
 
 #### Added Features
 
 ##### VPN Gateway
-* When you connect a Transit Hub to a VPC with a VPN connection, VPCs in other projects connected to the Transit Hub also support VPN communication with your on-premises network. (VPN Connection with connected range requires additional creation)
+* When you connect a Transit Hub to a VPC with a VPN connection, VPN communication with on-premises networks is also supported from VPCs of other projects connected via the Transit Hub. (An additional VPN Connection must be created for the connected bandwidth.)
 
 ##### Service Gateway
-* Made improvements to allow users to create a fixed NAT IP when creating a Service Gateway.
+* Improved so that you can create a Service Gateway with a fixed NAT IP.
 
 ##### Traffic Mirroring
-* Added Traffic Mirroring related API to Public API. Refer to [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/en/public-api/).
+* Added Traffic Mirroring-related APIs to the Public API. See the [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/en/public-api/).
 
 ##### Load Balancer
-* Added the feature to configure custom response per listener.
-* Added the feature to enable/disable X-Forwarded-* header.
+* Added the custom response configuration feature per listener.
+* Added the feature to enable/disable X-Forwarded-* headers.
 
 #### Feature Updates
 
-##### Load Balancer 
-* Added the feature to register/manage multiple SSL certificates in the console.
+##### Load Balancer
+* Multiple SSL certificate registration/management is now supported in the console.
+
+#### Feature Updates
+
+##### DNS Plus
+* Changed the maximum length of record values for TXT record set types from 255 bytes to 4,096 bytes.
 
 ### August 26, 2025
 
 #### Added Features
 
 ##### VPN Gateway
-* v2 has been released.
-* The Local gateway address is assigned and can be checked in the console when creating a VPN gateway.
-* You can set multiple peer gateway connections in one VPC.
-* You can set one peer gateway connection in multiple VPCs from the same project.
-* Supported IKE v2 connection.
-* VPN connections are available between regions where VPN gateway services are provided (The device is set to Fortinet - FortiGate Series).
-* New creation of v1 VPN gateway is restricted as v2 has been released.
+* Released v2.
+* When creating a VPN gateway, a local gateway address is assigned and can be viewed in the console.
+* You can configure multiple peer gateway connections in a single VPC.
+* In the same project, you can configure connections from multiple VPCs to a single peer gateway.
+* IKE v2 connections are supported.
+* VPN connections between regions where the VPN gateway service is available are supported (devices must be configured as Fortinet - Fortigate Series).
+* With the release of v2, creation of new v1 VPN gateways is restricted.
 
 ##### Load Balancer
-* Added support for checking metrics such as the Load Balancer's CPU usage, listener-level statistics, and socket connection status with the Cloud Monitoring service.
+* Added load balancer metrics — including CPU usage, listener-level statistics, and socket connection status — which can now be monitored through the Cloud Monitoring service.
 
 ### May 27, 2025
 
 #### Added Features
 
 ##### NAT Gateway
-* Added NAT Gateway-related API to the Public API. Refer to [NAT Gateway API Guide](/Network/NAT%20Gateway/en/public-api/).
+* Added APIs related to NAT Gateway to the Public API. See the [NAT Gateway API Guide](/Network/NAT%20Gateway/en/public-api/).
 
 ##### Security Groups
-* Added API for querying Security Groups connection information to the Public API. Refer to [Security Groups API Guide](/Network/Security%20Groups/en/public-api/).
-* Added the features to bulk create security rules and download a list of security rules.
+* Added an API to retrieve Security Groups connection information to the Public API. See the [Security Groups API Guide](/Network/Security%20Groups/en/public-api/).
+* Added bulk creation of security rules and security rule list download features.
 
 ##### Internet Gateway
-* Added Internet Gateway-related API to the Public API. Refer to [Internet Gateway API Guide](/Network/Internet%20Gateway/en/public-api/).
+* Added APIs related to Internet Gateway to the Public API. See the [Internet Gateway API Guide](/Network/Internet%20Gateway/en/public-api/).
 
 ##### Colocation Gateway
-* Added Colocation Gateway-related API to the Public API. Refer to [Colocation Gateway API Guide](/Network/Colocation%20Gateway/en/public-api/).
+* Added APIs related to Colocation Gateway to the Public API. See the [Colocation Gateway API Guide](/Network/Colocation%20Gateway/en/public-api/).
 
 ##### Private DNS
-* Added Private DNS-related API to the Public API. Refer to [Private DNS API Guide](/Network/Private%20DNS/en/public-api/).
+* Added APIs related to Private DNS to the Public API. See the [Private DNS API Guide](/Network/Private%20DNS/en/public-api/).
 
 ##### Floating IP
-* Added label setting feature to floating IP. Refer to [Floating IP Console User Guide](/Network/Floating%20IP/en/console-guide/).
+* Added a label configuration feature to Floating IP. See the [Floating IP Console User Guide](/Network/Floating%20IP/en/console-guide/).
 
 ##### Flow Log
-* Added the feature to create Flow Logs for network interfaces of Region peering gateway, Project peering gateway, and Colocation gateway.
+* Added support for creating Flow Logs targeting the network interfaces of Region peering gateway, Project peering gateway, Colocation gateway, and load balancers.
 
 #### Feature Updates
 ##### Flow Log
-* Improved that you can freely edit the folder and file names when saving Flow Log files to OBS.
-
+* Improved so that you can freely edit folder and file names when saving Flow Log files to OBS.
 
 ### April 29, 2025
 
 #### Feature Updates
 
 ##### DNS Plus
-* Changed the minimum value of the recordset TTL from 1 to 10.
-
+* Changed the minimum value of the record set TTL from 1 to 10.
 
 ### March 4, 2025
 
@@ -128,25 +131,27 @@
 * Improved so that you can check for status for a port number specified for each member, rather than a fixed port number per member group.
 
 ##### Flow Log
-* Added the feature to create Flow Log for attachments in Transit Hub.
+* Added support for creating Flow Logs targeting Transit Hub connections.
 * Added VPC and Subnet to Flow Log Collection Target.
 
 ##### Routing
-* Added a description field  to Route. You can enter a value when creating or changing a route, and it will appear in the route information.
-* Added the feature to change the CIDR, gateway entry for a route.
-
+* Added a description field to Route. You can enter a value when creating or changing a route, and it will appear in the route information.
+* Added the ability to change the CIDR and gateway fields of a route.
 
 ### November 26, 2024
 
 #### Feature Updates
 
 ##### Peering Gateway
-* Added the description field to peering. When you create or change a peering, you can enter a description for that peering, which appears in the peering basic information.
+* Added a description field to peering. You can enter a description for the peering when creating or changing it, and it will appear in the peering basic information.
 
 ##### Flow Log
-* Added Gzip compression feature.
-* Improved to allow users to select only the statistical information items that they want to record from the ones supported by Flow Log. For the supported statistical items, see [Flowlog Overview](/Network/Flow%20Log/en/overview/).
+* Added Gzip compression support.
+* Improved so that you can select only the statistical information items that you want to record from the items supported by Flow Log. For supported statistical items, see [Flow Log Overview](/Network/Flow%20Log/en/overview/).
 
+### August 27, 2024
+
+#### Added Features
 
 ##### Flow Log
 * Added the Flow Log service. Flow Log allows you to collect and store information about IP traffic sent to and received from a network interface.
@@ -156,7 +161,7 @@
 * Added API to get gateway information associated with routing tables to the Public API. See the [VPC API Guide](/Network/VPC/en/public-api/).
 
 ##### VPN Gateway
-* Added support for Diffie-Hellman groups 14,15,16,17,18,19,20,21,27,28.
+* Added support for Diffie-Hellman groups 14, 15, 16, 17, 18, 19, 20, 21, 27, and 28.
 
 
 #### Feature Updates
@@ -174,33 +179,33 @@
 
 #### Added Features
 
-#### Load Balancer
-* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
+##### Load Balancer
+* Added L7 load balancing. See the [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
 
-#### VPN Gateway
-* Added Cisco - Firepower 1000 Series to the peer gateway equipment.
+##### VPN Gateway
+* Added the Cisco - Firepower 1000 Series to the list of supported peer gateway devices.
 
 ##### Network ACL
-* Added the Network ACL feature to the Korea (Pangyo) region.
+* Added the Network ACL feature in the Korea (Pangyo) region.
 * Integrated Network ACL with CloudTrail.
 
 ##### Service Gateway
-* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
+* Added Service Gateway-related APIs to the Public API. See the [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
 
 ##### DNS Plus
-* Added the feature to set the header for health check requests, health check interval, maximum response latency (timeout), and maximum number of retries in GSLB health checks.
+* Added the feature to set the header for health check requests, health check cycle, maximum response latency, and maximum number of retries in GSLB health checks.
 
 #### Feature Updates
 
 ##### Service Gateway
-* Added the domain field for API endpoints on the basic information tab.
+* Added the API endpoint domain field to the Basic Information tab.
 
 ### March 26, 2024
 
 #### Added Features
 
 ##### Transit Hub
-* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
+* Added Transit Hub-related APIs to the Public API. See the [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
 
 ### March 12, 2024
 
@@ -208,27 +213,27 @@
 
 ##### DNS Plus
 * Stopped support for the SPF record set type. You can use the TXT record set type instead.
-    * For more information, see [RFC 7208#section-14.1](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1).
+    * For more information, see [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1).
 
 ### February 27, 2024
 
 #### Added Features
 
 ##### Floating IP
-* Added the feature to protect floating IPs from deletion.
+* Added deletion protection for Floating IP.
 
 ##### Load Balancer
-* Added the feature to protect load balancer from deletion.
-* Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/public-api/).
+* Added deletion protection for load balancers.
+* Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/).
 
 #### Feature Updates
 
 ##### Private DNS
 
-- Added the description field to the record set.
+- Added the description field to record sets.
 
 ##### Transit Hub
-* Added BLACKHOLE, which destroys packets, to the routing rule packet processing method.
+* Added BLACKHOLE to the routing rule packet processing method. BLACKHOLE drops packets.
 
 ### November 28, 2023
 
@@ -240,7 +245,7 @@
 
 ##### Private DNS
 
-* Added the Private DNS service. You can configure independent DNS for each VPC. 
+* Added the Private DNS service. You can configure independent DNS for each VPC.
   * Private DNS is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
 
 ### August 29, 2023
@@ -249,24 +254,24 @@
 
 ##### Transit Hub
 
-* Added the Transit Hub service. The service manages VPCs through a centralized connectivity and provides routing and multicast communication between connected resources.
-    * Transit Hub is only available in the Korea (Pyeongchon) and Korea (Pangyo) regions.
+* Added the Transit Hub service. It manages VPCs through centralized connectivity and provides routing and multicast communication between connected resources.
+    * Transit Hub is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
 ##### VPN Gateway
 
-* Added the VPN Gateway feature to the Korea (Pangyo) region.
+* Added VPN Gateway to the Korea (Pangyo) region.
 
 ##### NAT Instance
 
-* Added the NAT Instance feature to the Korea (Pangyo) region.
+* Added the NAT instance feature to the Korea (Pangyo) region.
 
 ##### VPC
 
-* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/en/Network/VPC/en/public-api/).
+* Added Routing API to the Public API. For more information, see the [VPC API Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
 
 ##### Network ACL
 
-* [Pyeongchon region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/en/Network/Network%20ACL/en/public-api/).
+* Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/).
 
 ### May 30, 2023
 
@@ -274,9 +279,9 @@
 
 ##### Network Interface
 
-* Improved the Network Interface UI
-    * Added the search feature.
-    * Improved to display device names.
+* Improved the Network Interface UI.
+    * Added a search feature.
+    * Improved the interface to display device names.
 
 ### March 28, 2023
 
@@ -284,18 +289,20 @@
 
 ##### Traffic Mirroring
 
-* Added the Traffic Mirroring feature. Packets can be captured and routed to detection tools for purposes such as content security, threat analysis, and troubleshooting.
-    * Traffic Mirroring is only available in Korea (Pyeongchon) and Korea (Pangyo) regions.
+* Added the Traffic Mirroring feature. You can capture packets and route them to detection tools for purposes such as content security, threat analysis, and troubleshooting.
+    * Traffic Mirroring is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
 #### Feature Updates
 
 ##### VPC
 
-* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/en/Network/VPC/en/public-api/). 
+* Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
+
+#### Feature Updates
 
 ##### VPC, Floating IP, Security Groups, Load Balancer
 
-* Changed API endpoint addresses.
+* Changed the API endpoint address.
 
 ### January 31, 2023
 
@@ -303,28 +310,28 @@
 
 ##### Colocation Gateway
 
-* [Pyeongchon/Pangyo region, Korea] Added the feature to set a route to colocation gateway.
+* [Korea Pyeongchon/Pangyo regions] Added the ability to configure routes on the colocation gateway.
 
 ##### Service Gateway
 
-* Removed the constraint where communication is only possible for service gateway within the same VPC. 
-* You can use the service gateway of other VPCs via peering gateway and colocation gateway.
+* Removed the restriction that limited communication to service gateways within the same VPC.
+* You can now use a service gateway in another VPC by routing through a peering gateway or colocation gateway.
 
-### November, 29, 2022
+### November 29, 2022
 
 #### Added Features
 
 ##### Peering Gateway
 
-* [Pyeongchon/Pangyo region, Korea] Added the feature to configure a route for Peering, Project peering, and Region peering.
+* [Korea Pyeongchon/Pangyo regions] Added the ability to configure routes for peering, project peering, and region peering.
 
-### October 26, 2022
+### October 4, 2022
 
 #### Feature Updates
 
 ##### Service Gateway
 
-* Added a supported service
+* Added supported services:
     * NCR
 
 ### July 26, 2022
@@ -333,7 +340,7 @@
 
 ##### Load Balancer
 
-* Added the feature to change host header field values for health checks.
+* Added the ability to change the host header field value during health checks.
 
 ### June 30, 2022
 
@@ -341,7 +348,7 @@
 
 ##### Service Gateway
 
-* Added a supported service
+* Added supported services:
     * CloudTrail
 
 ### May 24, 2022
@@ -350,17 +357,16 @@
 
 ##### Peering Gateway
 
-* Added the project peering feature, which allows you to connect two VPCs created in the same region but in different projects.
-    * Project peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+* Added the project peering feature. You can connect two VPCs created in the same region but in different projects.
+    * Project peering is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
 ##### VPN Gateway
 
-* [Pyeongchon region, Korea] Added the VPN Gateway feature.
+* [Korea Pyeongchon region] Added VPN Gateway.
 
 ##### NAT Gateway
 
-* [Pangyo region, Korea] Added the NAT Gateway feature.
-
+* [Korea Pangyo region] Added the NAT Gateway feature.
 
 ### March 29, 2022
 
@@ -368,10 +374,10 @@
 
 ##### VPC
 
-* Added the service gateway feature. You can use the service gateway IP to connect to the service selected when creating the service gateway.
-    * The service gateway feature is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
-* Added the inter-region peering feature, which allows you to connect two VPCs created in different regions.
-    * Inter-region peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+* Added the service gateway feature. You can use a service gateway IP to connect the service selected when creating the service gateway.
+    * Service Gateway is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
+* Added the region peering feature. You can connect two VPCs created in different regions.
+    * Region peering is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
 ### January 18, 2022
 
@@ -379,19 +385,19 @@
 
 ##### VPC
 
-* Added the static route configuration feature to subnets. You can configure static routes to forward via DHCP to instances within a subnet.
-* Added the feature to create and change a "centralized virtual routing table".
+* Added the static route configuration feature for subnets. You can configure static routes to be delivered to instances in the subnet via DHCP.
+* Added the ability to create and modify a "Centralized routing table".
 
 ##### Network Interface
 
-* Added the feature to create virtual IP for redundancy. You can preempt an IP to use as a virtual IP, and add a route to the IP in the routing table.
-* Added the feature to disable network interface security settings so that the instance can be used as a gateway, firewall, etc.
+* Added the ability to create a virtual IP for redundancy. You can reserve an IP for use as a virtual IP and add a route to that IP in the routing table.
+* Added the ability to disable security settings on a network interface so that instances can be used as gateways or firewalls.
 
 #### Feature Updates
 
 ##### Load Balancer
 
-* Enhanced to use TLS version 1.3 with load balancers that use the TERMINATED_HTTPS protocol.
+* Improved load balancers using the TERMINATED_HTTPS protocol to support TLS 1.3.
 
 ### August 24, 2021
 
@@ -399,20 +405,19 @@
 
 ##### DNS Plus
 
-* Added the Create multiple record sets feature.
-
+* Added the ability to create record sets in bulk.
 
 ### April 27, 2021
 
 #### Added Features
 
-##### NAT instance
+##### NAT Instance
 
-* [Pyeongchon region, Korea] Added the NAT Instance feature.
+* [Korea Pyeongchon region] Added the NAT instance feature.
 
 ##### Load Balancer
 
-* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/console-guide/#difference-between-physical-load-balancers-and-regular-load-balancer).
+* [Korea Pyeongchon region] Added the ability to create a physical load balancer online. For changes compared to the existing load balancer, see the [Load Balancer Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19).
 
 ### March 23, 2021
 
@@ -420,12 +425,12 @@
 
 ##### NAT Gateway
 
-* [Pyeongchon region, Korea] Added the NAT Gateway feature.
+* [Korea Pyeongchon region] Added the NAT Gateway feature.
 
 ##### Load Balancer
 
-* [Korea/Japan/United States] Added the Block Invalid Request feature.
-* [Korea/Japan/United States regions] The default connection limit of newly created load balancers is changed from 2,000 to 60,000.
+* [Korea/Japan/US regions] Added the ability to block invalid requests.
+* [Korea/Japan/US regions] Changed the default connection limit for newly created load balancers from 2,000 to 60,000.
 
 ### February 6, 2021
 
@@ -433,15 +438,15 @@
 
 ##### VPC
 
-* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC same could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
-
+* [Korea Pangyo region] Fixed an issue where the default route of the routing table (local route covering the entire VPC address range) was not applied. Previously, communication was only possible between subnets connected to the same routing table, even if they were within the same VPC. Now, communication is also possible between subnets connected to different routing tables.
 
 ### November 24, 2020
 
-#### Feature Updates
+#### Added Features
 
-#### Network Interface
-* Added Network Interface service.
+##### Network Interface
+
+* Added the Network Interface feature.
 
 ### September 22, 2020
 
@@ -449,7 +454,7 @@
 
 ##### DNS Plus
 
-* Improved the application to enable the editing of the record set type when editing a record set.
+* Improved the record set editing feature to allow modification of the record set type.
 
 ### August 25, 2020
 
@@ -457,33 +462,35 @@
 
 ##### Network ACL
 
-* [Pyeongchon region, Korea] Network ACL function added. Using the ACL function, you can control the access per protocol, IP, and port.
+* [Korea Pyeongchon region] Added the Network ACL feature. You can use the ACL feature to control access by protocol, IP, and port.
 
 ##### Load Balancer
 
-* Public API v2 supports IP access control function. For details, refer to [Load Balancer API Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/public-api/#ip-acl).
+* Added IP access control support to Public API v2. For more information, see the [Load Balancer API Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl).
 
 ### June 23, 2020
 
-#### Features Updates
-
-##### VPC
-* [Korea/Japan/United States] Changed the way to enter the IP of a gateway from manually typing in the address to selecting the device owning the IP from the Create Route window of a routing table. The devices that are not explicitly associated with a routing table in the subnet can also be selected.
-* [Korea/Japan/United States] Changed the Internet gateway list to display the information of the associated routing table instead of the IP information. The name of the associated Internet gateway is also displayed in the Route tab of a routing table.
-
-### May 26, 2020
 #### Feature Updates
 
 ##### VPC
 
-* Released Public API v2, which is compatible with OpenStack API.
+* [Korea/Japan/US regions] Changed the gateway field in the route creation window of the routing table from manually entering an IP address to selecting the device that owns the IP. You can also select devices from subnets that are not explicitly associated with the routing table.
+* [Korea/Japan/US regions] Changed the internet gateway list to display information about the associated routing table instead of IP information. The name of the associated internet gateway is also displayed on the Routes tab of the routing table.
+
+### May 26, 2020
+
+#### Feature Updates
+
+##### VPC
+
+* Public API v2 is now available. Public API v2 is compatible with the OpenStack API.
 
 ##### Load Balancer
 
-* The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
-* The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
-* Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
-* Released Public API v2, which is compatible with OpenStack API.
+* You can now register instances from other subnets within the same VPC as the load balancer as members of the load balancer. The subnet of the load balancer and the subnet of the instance must be connected to a routing table.
+* If the VPC that the load balancer belongs to has a peering connection, you can register instances from the peer VPC as members of the load balancer. Only instances in subnets connected to the default routing table of the peer VPC can be added.
+* Previously, when running multiple listeners on a load balancer, the same member instances had to be configured for all listeners. Now, you can configure different member instances per listener.
+* Public API v2 is now available. Public API v2 is compatible with the OpenStack API.
 
 ### March 24, 2020
 
@@ -491,8 +498,8 @@
 
 ##### Load Balancer
 
-* Added Certificate management through the Cert Manager service.
-* By registering a certificate at Cert Manager and connecting it to the listener, you can receive an email on certificate expiration date.
+* Added certificate management via the Cert Manager service.
+* You can register a certificate in the Cert Manager service and associate it with a listener to receive email alerts for certificate expiration.
 
 ### February 25, 2020
 
@@ -500,7 +507,7 @@
 
 ##### Security Group
 
-* Added "Description" entry to security group rules. You can add description for each security group rule.
+* Added a "Description" field to security group rules. You can now add a description to each security group rule.
 
 ### December 24, 2019
 
@@ -508,21 +515,22 @@
 
 ##### DNS Plus
 
-* Added GSLB (Global Server Load Balancing) to allow stable load balancing of traffic at an endpoint server.
-* The GSLB domain can be configured either, according to routing rules, Disaster Recovery (DR), Random, or Global Load Balancing.
-* The pool serves as a grouping element for endpoint servers at the minimum unit so as to apply the routing rule.
-* Health check is conducted on a regular basis for endpoint servers included to a pool so as to support stable services. Health check is supported for HTTP/HTTPS/TCP.
+* Added the GSLB (global server load balancing) feature that allows reliable load balancing of traffic of an endpoint server.
+* The created GSLB domain can be configured with DR (disaster recovery), random load balancing, or global load balancing according to the routing rule.
+* A pool is the smallest unit to which routing rules can be applied, and it groups endpoint servers together.
+* Supports reliable services by periodically performing health checks on the endpoint servers included in the pool. Health check supports HTTP, HTTPS, and TCP.
 
 #### Feature Updates
 
 ##### DNS Plus
 
-* Updated to select user's GSLB domain for CNAME record set type, for creating/updating the record set.
+* Made improvements so that, when creating or modifying record sets, users can enter the CNAME record set type by selecting from their own GSLB domains.
 
-### December 17. 2019
+### December 17, 2019
 
 #### Feature Updates
-* [Korea/Japan/US Region] Every network interface connected with an instance can be assosicated with each floating IP.
+
+* [Korea/Japan/US region] You can now associate a floating IP with each network interface connected to an instance.
 
 ### October 29, 2019
 
@@ -530,7 +538,7 @@
 
 ##### Load Balancer
 
-* Added the feature of notification via web console, for chain certificate registration, when an individual certificate which is included in the certificate file has an invalid format.
+* [Korea/Japan region] Added a notification feature that alerts you through the web console when an individual certificate in the certificate file has an invalid format while registering a chain certificate.
 
 ### August 27, 2019
 
@@ -538,22 +546,22 @@
 
 ##### Load Balancer
 
-* It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
-    * For more details on the setting of load balancer in TLS version, see [user guide](https://docs.toast.com/en/Network/Load%20Balancer/en/overview/#ssltls-version-for-load-balancer).
+* [Korea/Japan region] You can now specify the TLS version for communication with clients on a TERMINATED_HTTPS load balancer.
+    * For more information about the load balancer TLS version setting feature, see the [User Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls).
 
 ##### DNS Plus
 
-* Exceeded the maximum available number of record sets to be created. For each DNS zone, up to 5,000 record sets can be created.
-* Modified, in the query of record set statistics for CNAME, to query A record set type along with AAAA record set type.
+* Added the maximum number of record sets that can be created. You can create up to 5,000 record sets per DNS Zone.
+* Made a modification so that, when querying record set statistics, query for the CNAME record set type retrieves the A record set type and the AAAA record set type as well.
 
 ### June 25, 2019
 
-#### Release of New Products
+#### New Service Launch
 
 ##### DNS Plus
 
-* DNS Plus provides features for domain management.
-* It is easy to configure a DNS server.
+* DNS Plus is a service that provides domain management features.
+* You can configure DNS servers.
 
 ### May 30, 2019
 
@@ -561,9 +569,9 @@
 
 ##### Load Balancer
 
-* [Japan Region] IP access control is available.
-    * IP-based access control is available for load balancer.
-    * For more details on IP access control, see user guides.
+* [Japan region] IP access control is now available.
+    * IP-based access control is now available for the load balancer.
+    * For more information about IP access control, see the user guide.
 
 ### May 28, 2019
 
@@ -571,7 +579,7 @@
 
 ##### VPC
 
-* [Korea Region] Creating a peering can be made available again.
+* [Korea region] The peering creation feature is available again.
 
 ### April 25, 2019
 
@@ -579,10 +587,10 @@
 
 ##### Load Balancer
 
-* IP access control is available.
-    * IP-based access control is available at load balancer.
-    * For more details on IP access control features, see User Guide.
-    * List of IPs for control has been auto-applied to the IP access control group named Default.
+* IP access control is now available.
+    * IP-based access control is now available for the load balancer.
+    * For more information about IP access control, see the user guide.
+    * The list of IP addresses requested for access control via wired communication has been automatically added to the IP access control group named "Default".
 
 ### December 27, 2018
 
@@ -590,8 +598,8 @@
 
 ##### VPC
 
-* Creating a new peering is not going to be provided for the time being, due to concerns for packet flooding between peered VPCs.
-	Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.
+* Due to the possibility of packet flooding during communication between two peered VPCs, the peering creation feature will not be available for the time being.
+	Communication for existing peerings is not affected, and all other features except peering creation remain available.
 
 ### November 27, 2018
 
@@ -599,18 +607,17 @@
 
 ##### Load Balancer
 
-* Fixed a bug occurring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.
+* Fixed an issue where, when adding a new listener to a load balancer, instance members added to disabled instances were created in an active state.
 
 #### Feature Updates
 
 ##### Load Balancer
 
-* Added the statistics feature for load balancing, with the following statistical volume provided on a chart.
-    * Session count, Session increase volume of client per second, Session increase volume of instance per second, In/Out traffic volume, Number of exceptions to load balancing
-    * Statistics on deleted load balancers, listeners, or members are not provided.
-    * Traffic volume does not include L2, L3, and L4 headers.
-    * For more details, see User Guide.
-
+* Added a load balancing statistics feature that provides the following metrics in chart format:
+    * Number of sessions, client sessions per second, instance sessions per second, inbound traffic, outbound traffic, and number of instances excluded from load balancing
+    * Statistics for deleted load balancers, listeners, and members are not provided.
+    * Traffic volume does not include L2, L3, or L4 headers.
+    * For more information, see the user guide.
 
 ### September 20, 2018
 
@@ -618,14 +625,14 @@
 
 ##### Load Balancer
 
-* Fixed an issue in which some listener members still remain after an instance which is registered as member of load balancer is deleted.
+* Fixed an issue where, when deleting an instance registered as a member of a load balancer, the member remained in some listeners.
 
 #### Feature Updates
 
 ##### Load Balancer
 
-* Added dedicated load balancer services.
-* Since dedicated load balancer services are created by occupying hardware resources, 1Gbps bandwidth for 48 thousand concurrent sessions are supported.
+* Added the dedicated load balancer service.
+* The dedicated load balancer is created by reserving hardware resources and supports 1 Gbps of bandwidth and 480,000 concurrent sessions.
 
 ### August 28, 2018
 
@@ -633,23 +640,22 @@
 
 ##### VPC
 
-* Fixed an issue in which deleting may be tried to VPC with subnets that have routes
+* Fixed an issue where it was possible to attempt deletion of a VPC that had subnets with routes.
 
 #### Feature Updates
 
 ##### VPC
 
-* Updated the maximum available numbers to create subnet, routing table, and route.
-* Check the maximum available numbers to create each resource of VPC from description on the right of the popup.
-    * Subnet: Available up to 10 for each VPC.
-    * Routing Table: Available up to 10 for each VPC.
-    * Route: Available up to 10 for each routing table.
+* Adjusted the maximum number of subnets, routing tables, and routes that can be created.
+* You can check the maximum number of resources that can be created for each VPC resource in the description area on the right side of the resource creation window.
+    * Subnets: Up to 10 per VPC.
+    * Routing tables: Up to 10 per VPC.
+    * Routes: Up to 10 per routing table.
 
 ##### Load Balancer
 
-* For TCP or HTTPS protocol, a proxy protocol can be activated to check client IP.
-* Keepalive timeout can be configured for load balancer.
-
+* When using TCP or HTTPS protocols, you can enable the Proxy Protocol to identify the client's IP address.
+* You can configure the keepalive timeout value for the load balancer.
 
 ### April 24, 2018
 
@@ -657,26 +663,26 @@
 
 ##### VPC
 
-* Fixed failed access to load balancer of a peer VPC from instance of a local VPC.
+* Fixed an issue where instances in the local VPC could not connect smoothly to the load balancer in the peer VPC during peering.
 
 #### Feature Updates
 
 ##### VPC
 
-* You can find information of attached resources on Overview of VPC, Subnet, Routing Table, and Internet Gateway.
+* You can now view connected resource information on the overview pages for VPC, subnets, routing tables, and internet gateways.
 
 ##### Floating IP
 
-* Applied pagination to Floating IP list.
+* Added pagination to the floating IP list.
 
 ##### Security Group
 
-* Added rule editing.
+* Added the rule editing feature.
 
 ##### Load Balancer
 
-* Changed the Keeaplive Timeout to 5 minutes.
-* Up to 60,000 session limit can be configured for listener.
+* Changed the Keepalive Timeout to 5 minutes.
+* You can now set the session limit for a listener to up to 60,000.
 
 ### March 22, 2018
 
@@ -684,9 +690,9 @@
 
 ##### VPC
 
-* Fixed failure in getting an IP via DHCP when an instance is attached to a newly added subnet.
-* Fixed an issue in which the same target of a previous routing policy may be entered to add a routing policy.
-* Fixed infrequently failed communication of an instance associated to a floating IP with an instance located at a different subnet.
+* Fixed an issue where instances connected to a newly added subnet could not obtain an IP address via DHCP.
+* Fixed an issue where a routing policy with the same target as an existing routing policy could be added.
+* Fixed an issue where instances with a floating IP could intermittently not communicate with instances in other subnets.
 
 ### February 22, 2018
 
@@ -694,68 +700,65 @@
 
 ##### VPC
 
-* Fixed failed traffic from an instance associated with floating IP to a local network.
+* Fixed an issue where traffic from instances with a floating IP was not forwarded to the local network.
 
 #### Feature Updates
 
-##### Adopted VPC as Basic Model for Network
+##### Introduced VPC as the Default Network Model
 
-* You can use many subnets.
-* A port can be created by the subnet and attached to an instance.
-* More routing policies can be added.
+* You can use multiple subnets.
+* You can create ports per subnet and connect them to instances.
+* You can add routing policies.
 * Added the peering feature for communication between VPCs.
-* Many VPC ports may be added to or deleted from an instance.
-* For more details, Overview and User Guide of VPC.
-
+* You can add or remove multiple VPC ports from an instance.
+* For more information, see the VPC Overview and the user guide.
 
 ### November 23, 2017
 
 #### Bug Fixes
 
 ##### Load Balancer
-* Fixed the display of invalid connection limit for listener, when a load balancer is created.
+* Fixed an issue where the connection limit value for a listener was displayed incorrectly when creating a load balancer.
 
 ### October 26, 2017
 
 #### Bug Fixes
 
 ##### Load Balancer
-* Fixed failure in certificate registration when a load balancer is created.
+* Fixed an issue where certificates were not registered when creating a load balancer.
 
 ### September 21, 2017
 
 #### Added Features
 
-##### Added Public API
+##### Public API
 
-* Like Object Storage, you can also manage Compute & Network by using APIs.
-* The feature is limited at the moment, but will be extended by adding more APIs.
+* Following Object Storage, you can now manage the Compute & Network service via API.
+* Currently, only limited features are available, and features will be expanded through additional API updates.
 
 #### Bug Fixes
 
-* Fixed to disallow users without project admin authority to modify security group.
-* Updated not to show the Network menu to users, except authorized admin users of a project.
+* Fixed an issue where users without Admin permissions in a project could modify security groups.
+* Fixed an issue where the Network menu was visible to users without Admin permissions in a project.
 
 ### August 24, 2017
 
 #### Bug Fixes
 
 ##### Load Balancer
-* Fixed a bug in which the session persistence of load balancer did not show properly.
+* Fixed an issue where the session persistence setting for the load balancer service was not displayed correctly.
 
 ### April 20, 2017
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed a bug in which the popup for certificate registration is frequently missing while uploading certificate files to listener.
-
+* Fixed an issue where the certificate registration window intermittently disappeared when uploading a certificate file to a listener.
 
 ### March 23, 2017
 
 #### Bug Fixes
 ##### Floating IP
-* Fixed failed display of the "Create" button on the popup for associating with floating IP.
-
+* Fixed an issue where the "Create" button was not displayed in the floating IP association popup.
 
 ### February 23, 2017
 
@@ -763,84 +766,67 @@
 
 ##### Load Balancer
 
-* Updated to notify that deleting a listener is unavailable, if there is only one registered listener to a load balancer.
-	  * There's no defacto change in the process: sending no notification may have been confusing to some users.
-	  * The updated version now allows the user to be notified clearly that it is unavailable to delete.
+* Changed to notify users that a listener cannot be deleted when there is only one listener registered to the load balancer.
+	  * Previously, the deletion was already blocked, but users were not notified, which caused confusion.
+	  * Users are now explicitly notified with a message that the listener cannot be deleted.
 
 ##### Floating IP
 
-* Updated to prevent a floating IP from being deleted, if it is associated with an instance or a load balancer.
-	  * Previously, deleting a floating IP which is associated with an instance or a load balancer might have caused a failure to service.
-	  * To prevent any potential error, the updated version disallows an associated floating IP to be deleted.
-* Name Changes: 'Port' -> 'Network Interface'
-	  * Name for the target of floating IP to be associated with is changed from "Port" to "Network Interface".
-
+* Changed to prevent deleting a floating IP when an instance or load balancer is associated with it.
+	  * Previously, a floating IP associated with an instance or load balancer could be deleted, which could cause a service failure.
+	  * To prevent such mistakes, a floating IP that is associated with a resource can no longer be deleted.
+* Renamed: 'Port' → 'Network Interface'
+	  * The name of the target used when associating a floating IP with an instance has been changed from "Port" to "Network Interface."
 
 ### January 19, 2017
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed the issue in which the restricted connection setting was not applied when creating a load balancer.
-
-
+* Fixed an issue where the connection limit setting was not applied when creating a load balancer.
 
 ### December 22, 2016
 
 #### Bug Fixes
 
 ##### Load Balancer
-* Fixed failed editing of listener when the Health Check Protocol is TCP.
+* Fixed an issue where a listener could not be modified when the health check protocol was TCP.
 
 ##### Floating IP
-* Fixed failed display of the name of load balancer associated with floating IP.
+* Fixed an issue where the name of the load balancer associated with a floating IP was not displayed.
 
 ##### Security Group
-* Fixed an issue in which security group list disappears when a duplicate rule is added.
-
-
-
-
-
+* Fixed an issue where the security group list disappeared when a duplicate rule was added.
 
 ### December 8, 2016
 
 #### Bug Fixes
 
 ##### Load Balancer
-* Fixed failed display of Health Check URL of load balancer.
-* Fixed the show of "/", instead of a registered Health Check URL, at the click of Edit Listener,
-
-
-
-
-
-
-
+* Fixed an issue where the health check URL of a load balancer was not displayed.
+* Fixed an issue where "/" was displayed instead of the previously registered health check URL when clicking the Edit Listener button.
 
 ### November 29, 2016
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed failure in creating TERMINATED_HTTPS-type load balancers.
-
-
+* Fixed an issue where creating a TERMINATED_HTTPS type load balancer failed.
 
 ### November 24, 2016
 
 #### Feature Updates
 ##### Load Balancer
-* Updated to show the value of session limit per listener of load balancer.
+* Updated to display the session limit value per listener of a load balancer.
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed failure in creating load balancers at a particular project.
+* Fixed an issue where creating a load balancer failed in certain projects.
 
 ### August 4, 2016
 
 #### Feature Updates
 ##### Load Balancer
-* Added SSL offloading of load balancer.
+* Added SSL offloading support for load balancers.
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed infrequent failure in closing when load balancer is removed.
+* Fixed an issue where removing a load balancer intermittently failed to terminate properly.
