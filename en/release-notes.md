@@ -1,7 +1,12 @@
-## Network > Release Notes
+<!-- pre-align:aligned sig=3251e04c861f -->
 
-### May 27, 2026
+<a id="network-release-notes"></a>
+## Network > Release Notes { #network-release-notes }
 
+<a id="may-27-2026"></a>
+### May 27, 2026 { #may-27-2026 }
+
+<a id="may-27-2026-added-features"></a>
 #### Added Features
 
 ##### Network Interface
@@ -14,6 +19,7 @@
 	* Load Balancer (DSR) is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 * For more information, see the [Load Balancer (DSR) Console User Guide](/Network/Load%20Balancer(DSR)/en/console-guide/).
 
+<a id="may-27-2026-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -26,21 +32,26 @@
     * The network path that a packet traversed (VPC Local, Internet Gateway, VPN Gateway, VPC Peering, Region Peering, Project Peering, Service Gateway) can be viewed as an integer value.
     * For more information, see [Flow Log Overview](/Network/Flow%20Log/en/overview/).
 
+<a id="may-27-2026-may-27-2026-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
 * The internal traffic handling method for VPCs has been partially changed to support network service integration. This applies to newly created VPCs.
 
-### April 14, 2026
+<a id="april-14-2026"></a>
+### April 14, 2026 { #april-14-2026 }
 
+<a id="april-14-2026-added-features"></a>
 #### Added Features
 
 ##### DNS Plus
 * Added API v2.0
     * Supports User Access Key tokens.
 
-### November 25, 2025
+<a id="november-25-2025"></a>
+### November 25, 2025 { #november-25-2025 }
 
+<a id="november-25-2025-added-features"></a>
 #### Added Features
 
 ##### VPN Gateway
@@ -56,18 +67,22 @@
 * Added the custom response configuration feature per listener.
 * Added the feature to enable/disable X-Forwarded-* headers.
 
+<a id="november-25-2025-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
 * Multiple SSL certificate registration/management is now supported in the console.
 
+<a id="november-25-2025-november-25-2025-feature-updates"></a>
 #### Feature Updates
 
 ##### DNS Plus
 * Changed the maximum length of record values for TXT record set types from 255 bytes to 4,096 bytes.
 
-### August 26, 2025
+<a id="august-26-2025"></a>
+### August 26, 2025 { #august-26-2025 }
 
+<a id="august-26-2025-added-features"></a>
 #### Added Features
 
 ##### VPN Gateway
@@ -82,8 +97,10 @@
 ##### Load Balancer
 * Added load balancer metrics — including CPU usage, listener-level statistics, and socket connection status — which can now be monitored through the Cloud Monitoring service.
 
-### May 27, 2025
+<a id="may-27-2025"></a>
+### May 27, 2025 { #may-27-2025 }
 
+<a id="may-27-2025-added-features"></a>
 #### Added Features
 
 ##### NAT Gateway
@@ -108,19 +125,24 @@
 ##### Flow Log
 * Added support for creating Flow Logs targeting the network interfaces of Region peering gateway, Project peering gateway, Colocation gateway, and load balancers.
 
+<a id="may-27-2025-feature-updates"></a>
 #### Feature Updates
 ##### Flow Log
 * Improved so that you can freely edit folder and file names when saving Flow Log files to OBS.
 
-### April 29, 2025
+<a id="april-29-2025"></a>
+### April 29, 2025 { #april-29-2025 }
 
+<a id="april-29-2025-feature-updates"></a>
 #### Feature Updates
 
 ##### DNS Plus
 * Changed the minimum value of the record set TTL from 1 to 10.
 
-### March 4, 2025
+<a id="march-4-2025"></a>
+### March 4, 2025 { #march-4-2025 }
 
+<a id="march-4-2025-feature-updates"></a>
 #### Feature Updates
 
 ##### Service Gateway
@@ -138,8 +160,10 @@
 * Added a description field to Route. You can enter a value when creating or changing a route, and it will appear in the route information.
 * Added the ability to change the CIDR and gateway fields of a route.
 
-### November 26, 2024
+<a id="november-26-2024"></a>
+### November 26, 2024 { #november-26-2024 }
 
+<a id="november-26-2024-feature-updates"></a>
 #### Feature Updates
 
 ##### Peering Gateway
@@ -149,8 +173,10 @@
 * Added Gzip compression support.
 * Improved so that you can select only the statistical information items that you want to record from the items supported by Flow Log. For supported statistical items, see [Flow Log Overview](/Network/Flow%20Log/en/overview/).
 
-### August 27, 2024
+<a id="august-27-2024"></a>
+### August 27, 2024 { #august-27-2024 }
 
+<a id="august-27-2024-added-features"></a>
 #### Added Features
 
 ##### Flow Log
@@ -164,6 +190,7 @@
 * Added support for Diffie-Hellman groups 14, 15, 16, 17, 18, 19, 20, 21, 27, and 28.
 
 
+<a id="august-27-2024-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -175,8 +202,10 @@
 ##### Transit Hub
 * Added the feature to share multicast domains to other projects. You can have multicast communication between VPCs created in different projects.
 
-### May 28, 2024
+<a id="may-28-2024"></a>
+### May 28, 2024 { #may-28-2024 }
 
+<a id="may-28-2024-added-features"></a>
 #### Added Features
 
 ##### Load Balancer
@@ -195,28 +224,35 @@
 ##### DNS Plus
 * Added the feature to set the header for health check requests, health check cycle, maximum response latency, and maximum number of retries in GSLB health checks.
 
+<a id="may-28-2024-feature-updates"></a>
 #### Feature Updates
 
 ##### Service Gateway
 * Added the API endpoint domain field to the Basic Information tab.
 
-### March 26, 2024
+<a id="march-26-2024"></a>
+### March 26, 2024 { #march-26-2024 }
 
+<a id="march-26-2024-added-features"></a>
 #### Added Features
 
 ##### Transit Hub
 * Added Transit Hub-related APIs to the Public API. See the [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
 
-### March 12, 2024
+<a id="march-12-2024"></a>
+### March 12, 2024 { #march-12-2024 }
 
+<a id="march-12-2024-feature-updates"></a>
 #### Feature Updates
 
 ##### DNS Plus
 * Stopped support for the SPF record set type. You can use the TXT record set type instead.
     * For more information, see [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1).
 
-### February 27, 2024
+<a id="february-27-2024"></a>
+### February 27, 2024 { #february-27-2024 }
 
+<a id="february-27-2024-added-features"></a>
 #### Added Features
 
 ##### Floating IP
@@ -226,6 +262,7 @@
 * Added deletion protection for load balancers.
 * Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/).
 
+<a id="february-27-2024-feature-updates"></a>
 #### Feature Updates
 
 ##### Private DNS
@@ -235,8 +272,10 @@
 ##### Transit Hub
 * Added BLACKHOLE to the routing rule packet processing method. BLACKHOLE drops packets.
 
-### November 28, 2023
+<a id="november-28-2023"></a>
+### November 28, 2023 { #november-28-2023 }
 
+<a id="november-28-2023-added-features"></a>
 #### Added Features
 
 ##### Load Balancer
@@ -248,8 +287,10 @@
 * Added the Private DNS service. You can configure independent DNS for each VPC.
   * Private DNS is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
 
-### August 29, 2023
+<a id="august-29-2023"></a>
+### August 29, 2023 { #august-29-2023 }
 
+<a id="august-29-2023-added-features"></a>
 #### Added Features
 
 ##### Transit Hub
@@ -273,8 +314,10 @@
 
 * Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/).
 
-### May 30, 2023
+<a id="may-30-2023"></a>
+### May 30, 2023 { #may-30-2023 }
 
+<a id="may-30-2023-feature-updates"></a>
 #### Feature Updates
 
 ##### Network Interface
@@ -283,8 +326,10 @@
     * Added a search feature.
     * Improved the interface to display device names.
 
-### March 28, 2023
+<a id="march-28-2023"></a>
+### March 28, 2023 { #march-28-2023 }
 
+<a id="march-28-2023-added-features"></a>
 #### Added Features
 
 ##### Traffic Mirroring
@@ -292,20 +337,24 @@
 * Added the Traffic Mirroring feature. You can capture packets and route them to detection tools for purposes such as content security, threat analysis, and troubleshooting.
     * Traffic Mirroring is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
+<a id="march-28-2023-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
 
 * Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
 
+<a id="march-28-2023-march-28-2023-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC, Floating IP, Security Groups, Load Balancer
 
 * Changed the API endpoint address.
 
-### January 31, 2023
+<a id="january-31-2023"></a>
+### January 31, 2023 { #january-31-2023 }
 
+<a id="january-31-2023-feature-updates"></a>
 #### Feature Updates
 
 ##### Colocation Gateway
@@ -317,16 +366,20 @@
 * Removed the restriction that limited communication to service gateways within the same VPC.
 * You can now use a service gateway in another VPC by routing through a peering gateway or colocation gateway.
 
-### November 29, 2022
+<a id="november-29-2022"></a>
+### November 29, 2022 { #november-29-2022 }
 
+<a id="november-29-2022-added-features"></a>
 #### Added Features
 
 ##### Peering Gateway
 
 * [Korea Pyeongchon/Pangyo regions] Added the ability to configure routes for peering, project peering, and region peering.
 
-### October 4, 2022
+<a id="october-4-2022"></a>
+### October 4, 2022 { #october-4-2022 }
 
+<a id="october-4-2022-feature-updates"></a>
 #### Feature Updates
 
 ##### Service Gateway
@@ -334,16 +387,20 @@
 * Added supported services:
     * NCR
 
-### July 26, 2022
+<a id="july-26-2022"></a>
+### July 26, 2022 { #july-26-2022 }
 
+<a id="july-26-2022-added-features"></a>
 #### Added Features
 
 ##### Load Balancer
 
 * Added the ability to change the host header field value during health checks.
 
-### June 30, 2022
+<a id="june-30-2022"></a>
+### June 30, 2022 { #june-30-2022 }
 
+<a id="june-30-2022-feature-updates"></a>
 #### Feature Updates
 
 ##### Service Gateway
@@ -351,8 +408,10 @@
 * Added supported services:
     * CloudTrail
 
-### May 24, 2022
+<a id="may-24-2022"></a>
+### May 24, 2022 { #may-24-2022 }
 
+<a id="may-24-2022-added-features"></a>
 #### Added Features
 
 ##### Peering Gateway
@@ -368,8 +427,10 @@
 
 * [Korea Pangyo region] Added the NAT Gateway feature.
 
-### March 29, 2022
+<a id="march-29-2022"></a>
+### March 29, 2022 { #march-29-2022 }
 
+<a id="march-29-2022-added-features"></a>
 #### Added Features
 
 ##### VPC
@@ -379,8 +440,10 @@
 * Added the region peering feature. You can connect two VPCs created in different regions.
     * Region peering is available only in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
-### January 18, 2022
+<a id="january-18-2022"></a>
+### January 18, 2022 { #january-18-2022 }
 
+<a id="january-18-2022-added-features"></a>
 #### Added Features
 
 ##### VPC
@@ -393,22 +456,27 @@
 * Added the ability to create a virtual IP for redundancy. You can reserve an IP for use as a virtual IP and add a route to that IP in the routing table.
 * Added the ability to disable security settings on a network interface so that instances can be used as gateways or firewalls.
 
+<a id="january-18-2022-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
 
 * Improved load balancers using the TERMINATED_HTTPS protocol to support TLS 1.3.
 
-### August 24, 2021
+<a id="august-24-2021"></a>
+### August 24, 2021 { #august-24-2021 }
 
+<a id="august-24-2021-added-features"></a>
 #### Added Features
 
 ##### DNS Plus
 
 * Added the ability to create record sets in bulk.
 
-### April 27, 2021
+<a id="april-27-2021"></a>
+### April 27, 2021 { #april-27-2021 }
 
+<a id="april-27-2021-added-features"></a>
 #### Added Features
 
 ##### NAT Instance
@@ -419,8 +487,10 @@
 
 * [Korea Pyeongchon region] Added the ability to create a physical load balancer online. For changes compared to the existing load balancer, see the [Load Balancer Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19).
 
-### March 23, 2021
+<a id="march-23-2021"></a>
+### March 23, 2021 { #march-23-2021 }
 
+<a id="march-23-2021-added-features"></a>
 #### Added Features
 
 ##### NAT Gateway
@@ -432,32 +502,40 @@
 * [Korea/Japan/US regions] Added the ability to block invalid requests.
 * [Korea/Japan/US regions] Changed the default connection limit for newly created load balancers from 2,000 to 60,000.
 
-### February 6, 2021
+<a id="february-6-2021"></a>
+### February 6, 2021 { #february-6-2021 }
 
+<a id="february-6-2021-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
 
 * [Korea Pangyo region] Fixed an issue where the default route of the routing table (local route covering the entire VPC address range) was not applied. Previously, communication was only possible between subnets connected to the same routing table, even if they were within the same VPC. Now, communication is also possible between subnets connected to different routing tables.
 
-### November 24, 2020
+<a id="november-24-2020"></a>
+### November 24, 2020 { #november-24-2020 }
 
+<a id="november-24-2020-added-features"></a>
 #### Added Features
 
 ##### Network Interface
 
 * Added the Network Interface feature.
 
-### September 22, 2020
+<a id="september-22-2020"></a>
+### September 22, 2020 { #september-22-2020 }
 
+<a id="september-22-2020-feature-updates"></a>
 #### Feature Updates
 
 ##### DNS Plus
 
 * Improved the record set editing feature to allow modification of the record set type.
 
-### August 25, 2020
+<a id="august-25-2020"></a>
+### August 25, 2020 { #august-25-2020 }
 
+<a id="august-25-2020-added-features"></a>
 #### Added Features
 
 ##### Network ACL
@@ -468,8 +546,10 @@
 
 * Added IP access control support to Public API v2. For more information, see the [Load Balancer API Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl).
 
-### June 23, 2020
+<a id="june-23-2020"></a>
+### June 23, 2020 { #june-23-2020 }
 
+<a id="june-23-2020-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
@@ -477,8 +557,10 @@
 * [Korea/Japan/US regions] Changed the gateway field in the route creation window of the routing table from manually entering an IP address to selecting the device that owns the IP. You can also select devices from subnets that are not explicitly associated with the routing table.
 * [Korea/Japan/US regions] Changed the internet gateway list to display information about the associated routing table instead of IP information. The name of the associated internet gateway is also displayed on the Routes tab of the routing table.
 
-### May 26, 2020
+<a id="may-26-2020"></a>
+### May 26, 2020 { #may-26-2020 }
 
+<a id="may-26-2020-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
@@ -492,8 +574,10 @@
 * Previously, when running multiple listeners on a load balancer, the same member instances had to be configured for all listeners. Now, you can configure different member instances per listener.
 * Public API v2 is now available. Public API v2 is compatible with the OpenStack API.
 
-### March 24, 2020
+<a id="march-24-2020"></a>
+### March 24, 2020 { #march-24-2020 }
 
+<a id="march-24-2020-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -501,16 +585,20 @@
 * Added certificate management via the Cert Manager service.
 * You can register a certificate in the Cert Manager service and associate it with a listener to receive email alerts for certificate expiration.
 
-### February 25, 2020
+<a id="february-25-2020"></a>
+### February 25, 2020 { #february-25-2020 }
 
+<a id="february-25-2020-feature-updates"></a>
 #### Feature Updates
 
 ##### Security Group
 
 * Added a "Description" field to security group rules. You can now add a description to each security group rule.
 
-### December 24, 2019
+<a id="december-24-2019"></a>
+### December 24, 2019 { #december-24-2019 }
 
+<a id="december-24-2019-added-features"></a>
 #### Added Features
 
 ##### DNS Plus
@@ -520,28 +608,35 @@
 * A pool is the smallest unit to which routing rules can be applied, and it groups endpoint servers together.
 * Supports reliable services by periodically performing health checks on the endpoint servers included in the pool. Health check supports HTTP, HTTPS, and TCP.
 
+<a id="december-24-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### DNS Plus
 
 * Made improvements so that, when creating or modifying record sets, users can enter the CNAME record set type by selecting from their own GSLB domains.
 
-### December 17, 2019
+<a id="december-17-2019"></a>
+### December 17, 2019 { #december-17-2019 }
 
+<a id="december-17-2019-feature-updates"></a>
 #### Feature Updates
 
 * [Korea/Japan/US region] You can now associate a floating IP with each network interface connected to an instance.
 
-### October 29, 2019
+<a id="october-29-2019"></a>
+### October 29, 2019 { #october-29-2019 }
 
+<a id="october-29-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
 
 * [Korea/Japan region] Added a notification feature that alerts you through the web console when an individual certificate in the certificate file has an invalid format while registering a chain certificate.
 
-### August 27, 2019
+<a id="august-27-2019"></a>
+### August 27, 2019 { #august-27-2019 }
 
+<a id="august-27-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -554,8 +649,10 @@
 * Added the maximum number of record sets that can be created. You can create up to 5,000 record sets per DNS Zone.
 * Made a modification so that, when querying record set statistics, query for the CNAME record set type retrieves the A record set type and the AAAA record set type as well.
 
-### June 25, 2019
+<a id="june-25-2019"></a>
+### June 25, 2019 { #june-25-2019 }
 
+<a id="june-25-2019-new-service-launch"></a>
 #### New Service Launch
 
 ##### DNS Plus
@@ -563,8 +660,10 @@
 * DNS Plus is a service that provides domain management features.
 * You can configure DNS servers.
 
-### May 30, 2019
+<a id="may-30-2019"></a>
+### May 30, 2019 { #may-30-2019 }
 
+<a id="may-30-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -573,16 +672,20 @@
     * IP-based access control is now available for the load balancer.
     * For more information about IP access control, see the user guide.
 
-### May 28, 2019
+<a id="may-28-2019"></a>
+### May 28, 2019 { #may-28-2019 }
 
+<a id="may-28-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
 
 * [Korea region] The peering creation feature is available again.
 
-### April 25, 2019
+<a id="april-25-2019"></a>
+### April 25, 2019 { #april-25-2019 }
 
+<a id="april-25-2019-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -592,8 +695,10 @@
     * For more information about IP access control, see the user guide.
     * The list of IP addresses requested for access control via wired communication has been automatically added to the IP access control group named "Default".
 
-### December 27, 2018
+<a id="december-27-2018"></a>
+### December 27, 2018 { #december-27-2018 }
 
+<a id="december-27-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
@@ -601,14 +706,17 @@
 * Due to the possibility of packet flooding during communication between two peered VPCs, the peering creation feature will not be available for the time being.
 	Communication for existing peerings is not affected, and all other features except peering creation remain available.
 
-### November 27, 2018
+<a id="november-27-2018"></a>
+### November 27, 2018 { #november-27-2018 }
 
+<a id="november-27-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 
 * Fixed an issue where, when adding a new listener to a load balancer, instance members added to disabled instances were created in an active state.
 
+<a id="november-27-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -619,14 +727,17 @@
     * Traffic volume does not include L2, L3, or L4 headers.
     * For more information, see the user guide.
 
-### September 20, 2018
+<a id="september-20-2018"></a>
+### September 20, 2018 { #september-20-2018 }
 
+<a id="september-20-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 
 * Fixed an issue where, when deleting an instance registered as a member of a load balancer, the member remained in some listeners.
 
+<a id="september-20-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -634,14 +745,17 @@
 * Added the dedicated load balancer service.
 * The dedicated load balancer is created by reserving hardware resources and supports 1 Gbps of bandwidth and 480,000 concurrent sessions.
 
-### August 28, 2018
+<a id="august-28-2018"></a>
+### August 28, 2018 { #august-28-2018 }
 
+<a id="august-28-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### VPC
 
 * Fixed an issue where it was possible to attempt deletion of a VPC that had subnets with routes.
 
+<a id="august-28-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
@@ -657,14 +771,17 @@
 * When using TCP or HTTPS protocols, you can enable the Proxy Protocol to identify the client's IP address.
 * You can configure the keepalive timeout value for the load balancer.
 
-### April 24, 2018
+<a id="april-24-2018"></a>
+### April 24, 2018 { #april-24-2018 }
 
+<a id="april-24-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### VPC
 
 * Fixed an issue where instances in the local VPC could not connect smoothly to the load balancer in the peer VPC during peering.
 
+<a id="april-24-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### VPC
@@ -684,8 +801,10 @@
 * Changed the Keepalive Timeout to 5 minutes.
 * You can now set the session limit for a listener to up to 60,000.
 
-### March 22, 2018
+<a id="march-22-2018"></a>
+### March 22, 2018 { #march-22-2018 }
 
+<a id="march-22-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### VPC
@@ -694,14 +813,17 @@
 * Fixed an issue where a routing policy with the same target as an existing routing policy could be added.
 * Fixed an issue where instances with a floating IP could intermittently not communicate with instances in other subnets.
 
-### February 22, 2018
+<a id="february-22-2018"></a>
+### February 22, 2018 { #february-22-2018 }
 
+<a id="february-22-2018-bug-fixes"></a>
 #### Bug Fixes
 
 ##### VPC
 
 * Fixed an issue where traffic from instances with a floating IP was not forwarded to the local network.
 
+<a id="february-22-2018-feature-updates"></a>
 #### Feature Updates
 
 ##### Introduced VPC as the Default Network Model
@@ -713,22 +835,28 @@
 * You can add or remove multiple VPC ports from an instance.
 * For more information, see the VPC Overview and the user guide.
 
-### November 23, 2017
+<a id="november-23-2017"></a>
+### November 23, 2017 { #november-23-2017 }
 
+<a id="november-23-2017-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 * Fixed an issue where the connection limit value for a listener was displayed incorrectly when creating a load balancer.
 
-### October 26, 2017
+<a id="october-26-2017"></a>
+### October 26, 2017 { #october-26-2017 }
 
+<a id="october-26-2017-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 * Fixed an issue where certificates were not registered when creating a load balancer.
 
-### September 21, 2017
+<a id="september-21-2017"></a>
+### September 21, 2017 { #september-21-2017 }
 
+<a id="september-21-2017-added-features"></a>
 #### Added Features
 
 ##### Public API
@@ -736,32 +864,41 @@
 * Following Object Storage, you can now manage the Compute & Network service via API.
 * Currently, only limited features are available, and features will be expanded through additional API updates.
 
+<a id="september-21-2017-bug-fixes"></a>
 #### Bug Fixes
 
 * Fixed an issue where users without Admin permissions in a project could modify security groups.
 * Fixed an issue where the Network menu was visible to users without Admin permissions in a project.
 
-### August 24, 2017
+<a id="august-24-2017"></a>
+### August 24, 2017 { #august-24-2017 }
 
+<a id="august-24-2017-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 * Fixed an issue where the session persistence setting for the load balancer service was not displayed correctly.
 
-### April 20, 2017
+<a id="april-20-2017"></a>
+### April 20, 2017 { #april-20-2017 }
 
+<a id="april-20-2017-bug-fixes"></a>
 #### Bug Fixes
 ##### Load Balancer
 * Fixed an issue where the certificate registration window intermittently disappeared when uploading a certificate file to a listener.
 
-### March 23, 2017
+<a id="march-23-2017"></a>
+### March 23, 2017 { #march-23-2017 }
 
+<a id="march-23-2017-bug-fixes"></a>
 #### Bug Fixes
 ##### Floating IP
 * Fixed an issue where the "Create" button was not displayed in the floating IP association popup.
 
-### February 23, 2017
+<a id="february-23-2017"></a>
+### February 23, 2017 { #february-23-2017 }
 
+<a id="february-23-2017-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
@@ -778,14 +915,18 @@
 * Renamed: 'Port' → 'Network Interface'
 	  * The name of the target used when associating a floating IP with an instance has been changed from "Port" to "Network Interface."
 
-### January 19, 2017
+<a id="january-19-2017"></a>
+### January 19, 2017 { #january-19-2017 }
 
+<a id="january-19-2017-bug-fixes"></a>
 #### Bug Fixes
 ##### Load Balancer
 * Fixed an issue where the connection limit setting was not applied when creating a load balancer.
 
-### December 22, 2016
+<a id="december-22-2016"></a>
+### December 22, 2016 { #december-22-2016 }
 
+<a id="december-22-2016-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
@@ -797,36 +938,46 @@
 ##### Security Group
 * Fixed an issue where the security group list disappeared when a duplicate rule was added.
 
-### December 8, 2016
+<a id="december-8-2016"></a>
+### December 8, 2016 { #december-8-2016 }
 
+<a id="december-8-2016-bug-fixes"></a>
 #### Bug Fixes
 
 ##### Load Balancer
 * Fixed an issue where the health check URL of a load balancer was not displayed.
 * Fixed an issue where "/" was displayed instead of the previously registered health check URL when clicking the Edit Listener button.
 
-### November 29, 2016
+<a id="november-29-2016"></a>
+### November 29, 2016 { #november-29-2016 }
 
+<a id="november-29-2016-bug-fixes"></a>
 #### Bug Fixes
 ##### Load Balancer
 * Fixed an issue where creating a TERMINATED_HTTPS type load balancer failed.
 
-### November 24, 2016
+<a id="november-24-2016"></a>
+### November 24, 2016 { #november-24-2016 }
 
+<a id="november-24-2016-feature-updates"></a>
 #### Feature Updates
 ##### Load Balancer
 * Updated to display the session limit value per listener of a load balancer.
 
+<a id="november-24-2016-bug-fixes"></a>
 #### Bug Fixes
 ##### Load Balancer
 * Fixed an issue where creating a load balancer failed in certain projects.
 
-### August 4, 2016
+<a id="august-4-2016"></a>
+### August 4, 2016 { #august-4-2016 }
 
+<a id="august-4-2016-feature-updates"></a>
 #### Feature Updates
 ##### Load Balancer
 * Added SSL offloading support for load balancers.
 
+<a id="august-4-2016-bug-fixes"></a>
 #### Bug Fixes
 ##### Load Balancer
 * Fixed an issue where removing a load balancer intermittently failed to terminate properly.
