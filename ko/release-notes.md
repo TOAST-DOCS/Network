@@ -15,6 +15,14 @@
     * 엔진 버전에 따라 HTTP 트래픽 처리 등 일부 동작이 달라질 수 있으므로, 운영 환경에 적용하기 전에 반드시 검증해보시기 바랍니다.
 * [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
+#### 기능 개선
+
+##### Flow Log
+* Flow Log 파일명 커스터마이징에 timezone 템플릿 변수(`#{timezone}`)를 옵션으로 추가할 수 있습니다.
+    * 파일명 커스터마이징 시 `#{timezone}` 변수를 포함하면 파일명에 timezone이 표시되고, 제외하면 표시되지 않습니다.
+    * 기본 파일명에는 기존과 동일하게 timezone이 포함됩니다. timezone 값은 리전별로 결정됩니다. (한국 리전은 KST)
+    * [Flow Log 콘솔 사용 가이드](/Network/Flow%20Log/ko/console-guide/)를 참고하세요.
+
 
 ### 2026. 05. 27.
 
