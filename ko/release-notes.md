@@ -1,5 +1,7 @@
 <!-- pre-align:aligned sig=3251e04c861f -->
 
+## Network > 릴리스 노트
+
 ### 2026. 08. 25.
 
 #### 기능 추가
