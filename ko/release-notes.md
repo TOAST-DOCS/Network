@@ -24,8 +24,6 @@
     * [Flow Log 콘솔 사용 가이드](/Network/Flow%20Log/ko/console-guide/)를 참고하세요.
 
 
-### 2026. 05. 27.
-
 <a id="may-27-2026"></a>
 ### 2026. 05. 27. { #may-27-2026 }
 
