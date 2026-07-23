@@ -1,6 +1,7 @@
 <!-- pre-align:aligned sig=3251e04c861f -->
 
-## Network > 릴리스 노트
+<a id="network-release-notes"></a>
+## Network > 릴리스 노트 { #network-release-notes }
 
 ### 2026. 08. 25.
 
