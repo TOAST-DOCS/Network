@@ -8,7 +8,7 @@
 ##### Network Interface
 * "소스/대상 확인" 기능의 이름을 "스푸핑 방지"로 변경하고 네트워크 인터페이스 생성, 변경 화면에서 설정하도록 위치를 이동하였습니다.
 * 스푸핑 방지 사용 중 특정 주소만 스푸핑을 허용하는 "추가 허용 주소" 설정 기능이 추가되었습니다. 
-* [Network Interface 콘솔 사용 가이드](/Network/Network%20Interface/ko/console-guide/)를 참고하세요.
+* [Network Interface 콘솔 사용 가이드](/Network/Network%20Interface/ko/console-guide-ngoic/)를 참고하세요.
 
 <a id="july-24-2026-feature-updates"></a>
 #### 기능 개선
