@@ -3,7 +3,7 @@
 <a id="network-release-notes"></a>
 ## Network > リリースノート { #network-release-notes }
 
-<a id="auaust-25-2026"></a>
+<a id="august-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
 #### 機能追加
