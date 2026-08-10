@@ -1,5 +1,8 @@
 <!-- pre-align:aligned sig=3251e04c861f -->
 
+<a id="network-release-notes"></a>
+## Network > リリースノート { #network-release-notes }
+
 <a id="auaust-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
@@ -23,10 +26,6 @@
     * ファイル名のカスタマイズ時に `#{timezone}` 変数を含めるとファイル名に timezone が表示され、除外すると表示されません。
     * デフォルトのファイル名には、従来と同様に timezone が含まれます。timezone の値はリージョンごとに決定されます。(韓国リージョンはKST)
     * [Flow Logコンソール使用ガイド](/Network/Flow%20Log/ko/console-guide/)を参照してください。
-
-    
-<a id="network-release-notes"></a>
-## Network > リリースノート { #network-release-notes }
 
 <a id="may-27-2026"></a>
 ### 2026. 05. 27. { #may-27-2026 }
