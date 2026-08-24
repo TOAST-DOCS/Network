@@ -1,7 +1,10 @@
-## Network > 릴리스 노트
+<a id="network-release-notes"></a>
+## Network > 릴리스 노트 { #network-release-notes }
 
-### 2026. 09. 01.
+<a id="september-1-2026"></a>
+### 2026. 09. 01. { #september-1-2026 }
 
+<a id="september-1-2026-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
@@ -11,8 +14,10 @@
     * 엔진 버전에 따라 HTTP 트래픽 처리 등 일부 동작이 달라질 수 있으므로, 반드시 검증한 뒤 운영 환경에 적용하세요.
 * [Load Balancer 콘솔 사용 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
-### 2026. 06. 02.
+<a id="june-2-2026"></a>
+### 2026. 06. 02. { #june-2-2026 }
 
+<a id="june-2-2026-added-features"></a>
 #### 기능 추가
 
 ##### Network Interface
@@ -20,6 +25,7 @@
 * 스푸핑 방지 사용 중 특정 주소만 스푸핑을 허용하는 "추가 허용 주소" 설정 기능이 추가되었습니다. 
 * [Network Interface 콘솔 사용 가이드](/Network/Network%20Interface/ko/console-guide-ncgn/)를 참고하세요.
 
+<a id="june-2-2026-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -27,14 +33,17 @@
 * HTTP Keepalive 비활성화 기능이 추가되었습니다. Keepalive 타임아웃 설정 시 '사용 안 함'을 선택하면 Keepalive가 비활성화됩니다.
 * SSL/TLS 암호화 정책 설정 기능이 추가되었습니다. SSL/TLS 암호화 스위트(Cipher Suite)를 사용자가 커스터마이징하여 사용할 수 있습니다.
 
+<a id="june-2-2026-june-2-2026-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
 * 네트워크 서비스 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성되는 VPC부터 적용됩니다.
 
 
-### 2025. 12. 02.
+<a id="december-2-2025"></a>
+### 2025. 12. 02. { #december-2-2025 }
 
+<a id="december-2-2025-added-features"></a>
 #### 기능 추가
 
 ##### Service Gateway
@@ -44,25 +53,30 @@
 * 리스너별 사용자 정의 응답 설정 기능이 추가되었습니다.
 * X-Forwarded-* 헤더 활성/비활성화 기능이 추가되었습니다.
 
+<a id="december-2-2025-feature-updates"></a>
 #### 기능 개선
 
-##### Load Balancer 
+##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
 
-### 2025. 05. 29.
+<a id="may-29-2025"></a>
+### 2025. 05. 29. { #may-29-2025 }
 
+<a id="may-29-2025-added-features"></a>
 #### 기능 추가
 
 ##### Security Groups
 
 - 보안 규칙 대량 생성, 보안 규칙 목록 다운로드 기능이 추가되었습니다.
 
-##### Floating IPㅎ
+##### Floating IP
 
 - 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
-### 2025. 03. 06.
+<a id="march-6-2025"></a>
+### 2025. 03. 06. { #march-6-2025 }
 
+<a id="march-6-2025-feature-updates"></a>
 #### 기능 개선
 
 ##### Service Gateway
@@ -79,33 +93,40 @@
 - 라우트에 설명 항목이 추가되었습니다. 라우트 생성 또는 변경 시 값을 입력할 수 있으며, 라우트 정보에 표시됩니다.
 - 라우트의 CIDR, 게이트웨이 항목을 변경하는 기능이 추가되었습니다.
 
-### 2024. 12. 03.
+<a id="december-3-2024"></a>
+### 2024. 12. 03. { #december-3-2024 }
 
+<a id="december-3-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Peering Gateway
 
 - 피어링에 설명 항목이 추가되었습니다. 피어링 생성 또는 변경 시 해당 피어링에 대한 설명을 입력할 수 있으며, 피어링 기본 정보에 표시됩니다.
 
-### 2024. 09. 05.
+<a id="september-5-2024"></a>
+### 2024. 09. 05. { #september-5-2024 }
 
+<a id="september-5-2024-added-features"></a>
 #### 기능 추가
 
 ##### Routing
 
 - Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api-ncgn/)를 참고하세요.
 
+<a id="september-5-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
 
 - 멤버별로 포트 번호를 지정할 수 있습니다.
 
-### 2024. 06. 04.
+<a id="june-4-2024"></a>
+### 2024. 06. 04. { #june-4-2024 }
 
+<a id="june-4-2024-added-features"></a>
 #### 기능 추가
 
-#### Load Balancer
+##### Load Balancer
 
 - L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-ncgn/)를 참고하세요.
 
@@ -113,14 +134,17 @@
 
 - Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api-ncgn/)를 참고하세요.
 
+<a id="june-4-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Service Gateway
 
 - 기본 정보 탭에 API 엔드포인트 도메인 항목이 추가되었습니다.
 
-### 2024. 03. 05.
+<a id="march-5-2024"></a>
+### 2024. 03. 05. { #march-5-2024 }
 
+<a id="march-5-2024-added-features"></a>
 #### 기능 추가
 
 ##### Floating IP
@@ -131,22 +155,27 @@
 
 - 로드 밸런서 삭제 보호 기능이 추가되었습니다.
 
+<a id="march-5-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Transit Hub
 
 - 라우팅 룰 패킷 처리 방식에 패킷을 소멸시키는 BLACKHOLE이 추가되었습니다.
 
-### 2023. 12. 05.
+<a id="december-5-2023"></a>
+### 2023. 12. 05. { #december-5-2023 }
 
+<a id="december-5-2023-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
 
 - 로드 밸런서에 서브넷 정적 라우트 적용 기능이 추가되었습니다. 로드 밸런서가 속한 서브넷에 설정된 정적 라우트를 인스턴스뿐만 아니라 로드 밸런서에도 적용할 수 있습니다.
 
-### 2023. 09. 12.
+<a id="september-12-2023"></a>
+### 2023. 09. 12. { #september-12-2023 }
 
+<a id="september-12-2023-added-features"></a>
 #### 기능 추가
 
 ##### VPC

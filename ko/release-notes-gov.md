@@ -1,7 +1,10 @@
-## Network > 릴리스 노트
+<a id="network-release-notes"></a>
+## Network > 릴리스 노트 { #network-release-notes }
 
-### 2026. 09. 01.
+<a id="september-1-2026"></a>
+### 2026. 09. 01. { #september-1-2026 }
 
+<a id="september-1-2026-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
@@ -11,8 +14,10 @@
     * 엔진 버전에 따라 HTTP 트래픽 처리 등 일부 동작이 달라질 수 있으므로, 반드시 검증한 뒤 운영 환경에 적용하세요.
 * [Load Balancer 콘솔 사용 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
-### 2026. 06. 02.
+<a id="june-2-2026"></a>
+### 2026. 06. 02. { #june-2-2026 }
 
+<a id="june-2-2026-added-features"></a>
 #### 기능 추가
 
 ##### Network Interface
@@ -25,6 +30,7 @@
 	* Load Balancer(DSR)는 한국(판교) 리전에서만 이용할 수 있습니다.
 * [Load Balancer(DSR) 콘솔 사용 가이드](/Network/Load%20Balancer(DSR)/ko/console-guide/)를 참고하세요.
 
+<a id="june-2-2026-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -32,22 +38,27 @@
 * HTTP Keepalive 비활성화 기능이 추가되었습니다. Keepalive 타임아웃 설정 시 '사용 안 함'을 선택하면 Keepalive가 비활성화됩니다.
 * SSL/TLS 암호화 정책 설정 기능이 추가되었습니다. SSL/TLS 암호화 스위트(Cipher Suite)를 사용자가 커스터마이징하여 사용할 수 있습니다.
 
+<a id="june-2-2026-june-2-2026-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
 * 네트워크 서비스 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성되는 VPC부터 적용됩니다.
 
 
-### 2026. 04. 14.
+<a id="april-14-2026"></a>
+### 2026. 04. 14. { #april-14-2026 }
 
+<a id="april-14-2026-added-features"></a>
 #### 기능 추가
 
 ##### DNS Plus
 *  API v2.0 추가
     * User Access Key 토큰을 지원합니다.
 
-### 2025. 12. 02.
-#### 기능 추가 
+<a id="december-2-2025"></a>
+### 2025. 12. 02. { #december-2-2025 }
+<a id="december-2-2025-added-features"></a>
+#### 기능 추가
 
 ##### Service Gateway
 * Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
@@ -56,18 +67,22 @@
 * 리스너별 사용자 정의 응답 설정 기능이 추가되었습니다.
 * X-Forwarded-* 헤더 활성/비활성화 기능이 추가되었습니다.
 
+<a id="december-2-2025-feature-updates"></a>
 #### 기능 개선
 
-##### Load Balancer 
+##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
 
+<a id="december-2-2025-december-2-2025-feature-updates"></a>
 #### 기능 변경
 
 ##### DNS Plus
 *  TXT 레코드 세트 타입의 레코드 값 최대 길이를 255 바이트에서 4096 바이트로 변경하였습니다.
 
-### 2025. 06. 05.
+<a id="june-5-2025"></a>
+### 2025. 06. 05. { #june-5-2025 }
 
+<a id="june-5-2025-added-features"></a>
 #### 기능 추가
 
 ##### NAT Gateway
@@ -89,16 +104,20 @@
 ##### Floating IP
 * 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
-### 2025. 04. 29.
+<a id="april-29-2025"></a>
+### 2025. 04. 29. { #april-29-2025 }
 
+<a id="april-29-2025-feature-updates"></a>
 #### 기능 변경
 
 ##### DNS Plus
 * 레코드 세트 TTL의 최솟값을 1에서 10으로 변경하였습니다.
 
 
-### 2025. 03. 11.
+<a id="march-11-2025"></a>
+### 2025. 03. 11. { #march-11-2025 }
 
+<a id="march-11-2025-feature-updates"></a>
 #### 기능 개선
 
 ##### Service Gateway
@@ -113,21 +132,26 @@
 * 라우트의 CIDR, 게이트웨이 항목을 변경하는 기능이 추가되었습니다.
 
 
-### 2024. 12. 03.
+<a id="december-3-2024"></a>
+### 2024. 12. 03. { #december-3-2024 }
 
+<a id="december-3-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Peering Gateway
 * 피어링에 설명 항목이 추가되었습니다. 피어링 생성 또는 변경 시 해당 피어링에 대한 설명을 입력할 수 있으며, 피어링 기본 정보에 표시됩니다.
 
-### 2024. 09. 05.
+<a id="september-5-2024"></a>
+### 2024. 09. 05. { #september-5-2024 }
 
+<a id="september-5-2024-added-features"></a>
 #### 기능 추가
 
 ##### Routing
 * Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api-gov/)를 참고하세요.
 
 
+<a id="september-5-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -140,33 +164,41 @@
 * 멀티캐스트 도메인을 다른 프로젝트에 공유할 수 있도록 기능이 추가되었습니다. 다른 프로젝트에서 생성된 VPC 간에 멀티캐스트 통신을 할 수 있습니다.
 
 
-### 2024. 06. 04.
+<a id="june-4-2024"></a>
+### 2024. 06. 04. { #june-4-2024 }
 
+<a id="june-4-2024-added-features"></a>
 #### 기능 추가
 
 ##### Network ACL, NAT Instance, Transit Hub, Colocation Gateway, NAT Gateway, Service Gateway, Traffic Mirroring, Private DNS
 * 한국(판교) 리전에 기능이 추가되었습니다.
 
-#### Load Balancer
+##### Load Balancer
 * L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-gov/)를 참고해 주세요.
 
-### 2024. 05. 28.
+<a id="may-28-2024"></a>
+### 2024. 05. 28. { #may-28-2024 }
 
-#### 기능 추가 
+<a id="may-28-2024-added-features"></a>
+#### 기능 추가
 
 ##### DNS Plus
 * GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
 
-### 2024. 03. 12.
+<a id="march-12-2024"></a>
+### 2024. 03. 12. { #march-12-2024 }
 
+<a id="march-12-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### DNS Plus
 * SPF 레코드 세트 타입 지원이 중단되었습니다. TXT 레코드 세트 타입으로 대신 사용할 수 있습니다.
     * 상세 내용은 [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)에서 확인할 수 있습니다.
 
-### 2024. 02. 29.
+<a id="february-29-2024"></a>
+### 2024. 02. 29. { #february-29-2024 }
 
+<a id="february-29-2024-added-features"></a>
 #### 기능 추가
 
 ##### Floating IP
@@ -176,21 +208,26 @@
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
 * Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.gov-nhncloud.com/ko/Network/Load%20Balancer/ko/public-api-gov/)를 참고해 주세요.
 
+<a id="february-29-2024-feature-updates"></a>
 #### 기능 개선
 
 ##### Transit Hub
 * 라우팅 룰 패킷 처리 방식에 패킷을 소멸시키는 BLACKHOLE이 추가되었습니다. 
 
-### 2023. 11. 30.
+<a id="november-30-2023"></a>
+### 2023. 11. 30. { #november-30-2023 }
 
+<a id="november-30-2023-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
 
 * 로드 밸런서에 서브넷 정적 라우트 적용 기능이 추가되었습니다. 로드 밸런서가 속한 서브넷에 설정된 정적 라우트를 인스턴스뿐만 아니라 로드 밸런서에도 적용할 수 있습니다.
 
-### 2023. 09. 05.
+<a id="september-5-2023"></a>
+### 2023. 09. 05. { #september-5-2023 }
 
+<a id="september-5-2023-added-features"></a>
 #### 기능 추가
 
 ##### VPC
@@ -198,8 +235,10 @@
 * Public API에 Routing API가 추가되었습니다. [VPC API 가이드](https://docs.gov-nhncloud.com/ko/Network/VPC/ko/public-api-gov/)를 참고해 주세요.
 
 
-### 2023. 06. 08.
+<a id="june-8-2023"></a>
+### 2023. 06. 08. { #june-8-2023 }
 
+<a id="june-8-2023-feature-updates"></a>
 #### 기능 개선
 
 ##### Network Interface
@@ -208,38 +247,47 @@
     * 검색 기능이 추가되었습니다.
     * 장치 이름을 표시하도록 개선했습니다.
 
-### 2023. 04. 04.
+<a id="april-4-2023"></a>
+### 2023. 04. 04. { #april-4-2023 }
 
-#### 기능 개선 
+<a id="april-4-2023-feature-updates"></a>
+#### 기능 개선
 
 ##### VPC
 
 * Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 가이드](https://docs.gov-nhncloud.com/ko/Network/VPC/ko/public-api-gov/)를 참고해 주세요.   
 
+<a id="april-4-2023-april-4-2023-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC, Floating IP, Security Groups, Load Balancer
 
 * API 엔드포인트 주소가 변경되었습니다.
 
-### 2022. 08. 02.
+<a id="august-2-2022"></a>
+### 2022. 08. 02. { #august-2-2022 }
 
+<a id="august-2-2022-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
 
 * 상태 확인 시 호스트 헤더의 필드값을 변경할 수 있는 기능이 추가되었습니다.
 
-### 2022. 05. 31.
+<a id="may-31-2022"></a>
+### 2022. 05. 31. { #may-31-2022 }
 
+<a id="may-31-2022-added-features"></a>
 #### 기능 추가
 
 ##### VPC
 
 * 프로젝트 피어링 기능이 추가되었습니다. 같은 리전, 다른 프로젝트에 생성된 두 개의 VPC를 연결할 수 있습니다.
 
-### 2022. 04. 05.
+<a id="april-5-2022"></a>
+### 2022. 04. 05. { #april-5-2022 }
 
+<a id="april-5-2022-added-features"></a>
 #### 기능 추가
 
 ##### VPC
@@ -252,14 +300,17 @@
 * 이중화를 위한 가상 IP 생성 기능이 추가되었습니다. 가상 IP로 사용할 IP를 선점하고, 라우팅 테이블에서 해당 IP로의 라우트를 추가할 수 있습니다.
 * 인스턴스를 게이트웨이/방화벽 등의 용도로 사용할 수 있도록 네트워크 인터페이스의 보안 설정을 해제하는 기능이 추가되었습니다. 
 
+<a id="april-5-2022-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
 
 * TERMINATED_HTTPS 프로토콜을 사용하는 로드 밸런서에서 TLS 1.3 버전을 사용할 수 있도록 개선되었습니다.
 
-### 2021. 12. 07.
+<a id="december-7-2021"></a>
+### 2021. 12. 07. { #december-7-2021 }
 
+<a id="december-7-2021-added-features"></a>
 #### 기능 추가
 
 ##### DNS Plus
@@ -267,8 +318,10 @@
 * 레코드 세트 대량 생성 기능이 추가되었습니다.
 
 
-### 2021. 07. 02.
+<a id="july-2-2021"></a>
+### 2021. 07. 02. { #july-2-2021 }
 
+<a id="july-2-2021-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
@@ -276,6 +329,7 @@
 * 라우팅 테이블의 기본 라우트(VPC 주소 영역 전체로의 로컬 라우트)가 적용되지 않는 문제를 수정했습니다. 기존에는 VPC 내의 서브넷이라도 같은 라우팅 테이블에 연결되어 있는 서브넷 간에만 통신이 가능했지만, 서로 다른 라우팅 테이블에 연결되어 있는 서브넷 간에도 통신이 가능합니다.
 
 
+<a id="july-2-2021-added-features"></a>
 #### 기능 추가
 
 ##### Network Interface
@@ -283,8 +337,10 @@
 * Network Interface 기능이 추가되었습니다.
 
 
-### 2020. 11. 03.
+<a id="november-3-2020"></a>
+### 2020. 11. 03. { #november-3-2020 }
 
+<a id="november-3-2020-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
@@ -292,12 +348,14 @@
 * 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
 
 
+<a id="november-3-2020-november-3-2020-feature-updates"></a>
 #### 기능 개선
 
 ##### DNS Plus
 
 * 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
 
+<a id="november-3-2020-added-features"></a>
 #### 기능 추가
 
 ##### Load Balancer
@@ -305,8 +363,10 @@
 * Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://gov-docs.toast.com/ko/Network/Load%20Balancer/ko/public-api-gov/#ip-acl)를 참고해 주세요.
 
 
-### 2020. 08. 25.
+<a id="august-25-2020"></a>
+### 2020. 08. 25. { #august-25-2020 }
 
+<a id="august-25-2020-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -314,8 +374,10 @@
 * 전용 로드밸런서 서비스가 추가되었습니다.
 * 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기에 1Gbps의 대역폭과 48만 동시세션을 지원합니다.
 
-### 2020. 06. 16.
+<a id="june-16-2020"></a>
+### 2020. 06. 16. { #june-16-2020 }
 
+<a id="june-16-2020-feature-updates"></a>
 #### 기능 개선
 
 ##### VPC
@@ -329,8 +391,10 @@
 * 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
 * Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
 
-### 2020. 04. 07.
+<a id="april-7-2020"></a>
+### 2020. 04. 07. { #april-7-2020 }
 
+<a id="april-7-2020-new-service-launch"></a>
 #### 신규 상품 출시
 
 ##### DNS Plus
@@ -339,8 +403,10 @@
 * DNS(Domain Name System)로 도메인을 간편하게 설정하고 관리할 수 있습니다.
 * GSLB(Global Server Load Balancing)로 라우팅 규칙에 따라 엔드포인트 서버를 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
 
-### 2020. 03. 10.
+<a id="march-10-2020"></a>
+### 2020. 03. 10. { #march-10-2020 }
 
+<a id="march-10-2020-feature-updates"></a>
 #### 기능 개선
 ##### 플로팅 IP
 * 인스턴스에 연결된 모든 네트워크 인터페이스에 각각 플로팅 IP를 연결할 수 있습니다.
@@ -354,8 +420,10 @@
 
 * 보안 그룹 규칙에 "설명" 항목이 추가되었습니다. 보안 그룹 규칙별로 설명을 추가할 수 있습니다.
 
-### 2019. 08. 13.
+<a id="august-13-2019"></a>
+### 2019. 08. 13. { #august-13-2019 }
 
+<a id="august-13-2019-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -364,14 +432,17 @@
     * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.
     * 유선으로 설정 요청하신 제어 대상 IP 목록은 Default 라는 이름의 IP 접근제어 그룹에 자동 반영되었습니다.
 
+<a id="august-13-2019-august-13-2019-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
 
 * 피어링 생성 기능을 다시 사용할 수 있습니다.
 
-### 2018. 12. 27.
+<a id="december-27-2018"></a>
+### 2018. 12. 27. { #december-27-2018 }
 
+<a id="december-27-2018-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
@@ -379,14 +450,17 @@
 * 피어링 된 두 VPC 사이의 통신 시 패킷 플러딩이 발생할 가능성이 있어, 당분간 새로운 피어링 생성 기능을 제공하지 않습니다.
 	기존에 만들어진 피어링의 통신에는 문제가 없으며 피어링 생성을 제외한 나머지 기능은 그대로 제공됩니다.
 
-### 2018. 11. 27.
+<a id="november-27-2018"></a>
+### 2018. 11. 27. { #november-27-2018 }
 
+<a id="november-27-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
 
 * 로드 밸런서에 리스너를 추가 생성하는 경우, 비활성화된 인스턴스에 추가된 인스턴스 멤버가 활성화된채 생성되는 버그를 수정하였습니다.
 
+<a id="november-27-2018-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -398,14 +472,17 @@
     * 자세한 사항은 사용자가이드 문서를 참고해주세요.
 
 
-### 2018. 09. 20.
+<a id="september-20-2018"></a>
+### 2018. 09. 20. { #september-20-2018 }
 
+<a id="september-20-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
 
 * Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다.
 
+<a id="september-20-2018-feature-updates"></a>
 #### 기능 개선
 
 ##### Load Balancer
@@ -413,14 +490,17 @@
 * 전용 로드밸런서 서비스가 추가되었습니다. 
 * 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기에 1Gbps의 대역폭과 48만 동시세션을 지원합니다.
 
-### 2018. 08. 28.
+<a id="august-28-2018"></a>
+### 2018. 08. 28. { #august-28-2018 }
 
+<a id="august-28-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### VPC
 
 * 라우트가 존재하는 서브넷을 가진 VPC에 대해 삭제를 시도할 수 있는 문제를 수정했습니다.
 
+<a id="august-28-2018-feature-updates"></a>
 #### 기능 변경
 
 ##### VPC
@@ -437,14 +517,17 @@
 * Load Balancer의 Keepalive timeout 값을 설정할 수 있습니다.
 
 
-### 2018. 04. 24.
+<a id="april-24-2018"></a>
+### 2018. 04. 24. { #april-24-2018 }
 
+<a id="april-24-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### VPC
 
 * 피어링 시 로컬 VPC의 인스턴스에서 피어 VPC의 로드밸런서로 접속이 원활하지 않은 문제를 수정했습니다.
 
+<a id="april-24-2018-feature-updates"></a>
 #### 기능 개선
 
 ##### VPC
@@ -464,8 +547,10 @@
 * Keepalive Timeout을 5분으로 변경하였습니다.
 * Listener의 세션 제한값을 최대 60,000 까지 설정할 수 있습니다.
 
-### 2018. 03. 22.
+<a id="march-22-2018"></a>
+### 2018. 03. 22. { #march-22-2018 }
 
+<a id="march-22-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### VPC
@@ -474,14 +559,17 @@
 * 라우팅 정책을 추가할 때 기존 라우팅 정책의 타겟과 동일한 타겟을 입력할 수 있는 문제를 수정했습니다.
 * Floating IP가 연결된 인스턴스에서 간헐적으로 다른 서브넷에 위치한 인스턴스와 통신이 되지 않는 문제를 수정했습니다.
 
-### 2018. 02. 22.
+<a id="february-22-2018"></a>
+### 2018. 02. 22. { #february-22-2018 }
 
+<a id="february-22-2018-bug-fixes"></a>
 #### 버그 수정
 
 ##### VPC
 
 * Floating IP가 연결된 인스턴스에서 로컬 네트워크로 트래픽이 전달되지 않는 문제를 수정했습니다.
 
+<a id="february-22-2018-feature-updates"></a>
 #### 기능 개선
 
 ##### Network 기본 모델로 VPC를 도입했습니다.
@@ -494,22 +582,28 @@
 * 자세한 내용은 VPC Overview와 사용자 가이드를 참고해주시기 바랍니다.
 
 
-### 2017. 11. 23.
+<a id="november-23-2017"></a>
+### 2017. 11. 23. { #november-23-2017 }
 
+<a id="november-23-2017-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
 * Load Balancer 생성시 리스너의 연결 제한값이 잘못 표기되는 현상을 수정하였습니다.
 
-### 2017. 10. 26.
+<a id="october-26-2017"></a>
+### 2017. 10. 26. { #october-26-2017 }
 
+<a id="october-26-2017-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
 * Load Balancer 생성시 인증서가 등록되지 않는 버그가 수정되었습니다.
 
-### 2017. 09. 21.
+<a id="september-21-2017"></a>
+### 2017. 09. 21. { #september-21-2017 }
 
+<a id="september-21-2017-added-features"></a>
 #### 기능 추가
 
 ##### Public API 추가
@@ -517,34 +611,43 @@
 * Object Storage에 이어 Compute&Network 상품을 API를 이용해 관리할 수 있습니다.
 * 현재 제한적인 기능만 이용할 수 있으며, 추후 API 추가를 통해 기능이 확장되었습니다.
 
+<a id="september-21-2017-bug-fixes"></a>
 #### 버그 수정
 
 * Project에 Admin 권한이 없는 사용자가 security group을 수정할 수 없도록 수정되었습니다.
 * Project에 Admin 권한이 없는 사용자에게는 Network 메뉴가 노출되지 않도록 수정되었습니다.
 
-### 2017. 08. 24.
+<a id="august-24-2017"></a>
+### 2017. 08. 24. { #august-24-2017 }
 
+<a id="august-24-2017-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
 * Load Balancer 서비스의 세션 지속성 항목이 제대로 표시되지 않던 버그가 수정되었습니다.
 
-### 2017. 04. 20.
+<a id="april-20-2017"></a>
+### 2017. 04. 20. { #april-20-2017 }
 
+<a id="april-20-2017-bug-fixes"></a>
 #### 버그 수정
 ##### Load Balancer
 * Listener에 인증서 파일 업로드시 간헐적으로 인증서 등록창이 사라지는 버그가 수정되었습니다.
 
 
-### 2017. 03. 23.
+<a id="march-23-2017"></a>
+### 2017. 03. 23. { #march-23-2017 }
 
+<a id="march-23-2017-bug-fixes"></a>
 #### 버그 수정
 ##### Floating IP
 * Floating IP 연결 팝업에서 "생성" 버튼이 노출되지 않는 문제가 수정되었습니다.
 
 
-### 2017. 02. 23.
+<a id="february-23-2017"></a>
+### 2017. 02. 23. { #february-23-2017 }
 
+<a id="february-23-2017-feature-updates"></a>
 #### 기능 개선/변경
 
 ##### Load Balancer
@@ -562,16 +665,20 @@
 	  * 인스턴스에 Floating IP를 붙일 때 대상이 되는 명칭을 기존 “포트”에서 “네트워크 인터페이스”로 변경합니다.
 
 
-### 2017. 01. 19.
+<a id="january-19-2017"></a>
+### 2017. 01. 19. { #january-19-2017 }
 
+<a id="january-19-2017-bug-fixes"></a>
 #### 버그 수정
 ##### Load Balancer
 * Load Balancer 생성시 연결 제한 설정이 적용되지 않는 문제를 수정하였습니다.
 
 
 
-### 2016. 12. 22.
+<a id="december-22-2016"></a>
+### 2016. 12. 22. { #december-22-2016 }
 
+<a id="december-22-2016-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
@@ -588,8 +695,10 @@
 
 
 
-### 2016. 12. 08.
+<a id="december-8-2016"></a>
+### 2016. 12. 08. { #december-8-2016 }
 
+<a id="december-8-2016-bug-fixes"></a>
 #### 버그 수정
 
 ##### Load Balancer
@@ -603,32 +712,40 @@
 
 
 
-### 2016. 11. 29.
+<a id="november-29-2016"></a>
+### 2016. 11. 29. { #november-29-2016 }
 
+<a id="november-29-2016-bug-fixes"></a>
 #### 버그 수정
 ##### Load Balancer
 * TERMINATED_HTTPS type의 Load Balancer 생성이 실패하던 문제를 수정하였습니다.
 
 
 
-### 2016. 11. 24.
+<a id="november-24-2016"></a>
+### 2016. 11. 24. { #november-24-2016 }
 
+<a id="november-24-2016-feature-updates"></a>
 #### 기능 개선/변경
 ##### Load Balancer
 * Load Balancer의 Listener별 세션 제한 값을 노출하도록 변경하였습니다.
 
+<a id="november-24-2016-bug-fixes"></a>
 #### 버그 수정
 ##### Load Balancer
 * 특정 Project에서 Load Balancer 생성 실패하던 문제를 수정하였습니다.
 
 
 
-### 2016. 08. 04.
+<a id="august-4-2016"></a>
+### 2016. 08. 04. { #august-4-2016 }
 
+<a id="august-4-2016-feature-updates"></a>
 #### 기능 개선/변경
 ##### Load Balancer
 * Load Balancer의 SSL offloading 기능을 추가하였습니다.
 
+<a id="august-4-2016-bug-fixes"></a>
 #### 버그 수정
 ##### Load Balancer
 * Load Balancer 제거 시 간헐적으로 정상 종료되지 않던 문제를 수정하였습니다.
