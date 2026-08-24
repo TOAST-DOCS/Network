@@ -1,7 +1,10 @@
-## Network > 릴리스 노트
+<a id="network-release-notes"></a>
+## Network > 릴리스 노트 { #network-release-notes }
 
-### 2026. 03. 13.
+<a id="march-13-2026"></a>
+### 2026. 03. 13. { #march-13-2026 }
 
+<a id="march-13-2026-added-features"></a>
 #### 기능 추가
 
 ##### Service Gateway
@@ -40,17 +43,20 @@
 * 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
 
+<a id="march-13-2026-feature-updates"></a>
 #### 기능 개선
 
-##### Load Balancer 
+##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
 
 ##### Flow Log
 * Flow Log의 파일을 OBS에 저장할 때, 폴더와 파일 이름을 자유롭게 편집할 수 있도록 개선되었습니다.
 
 
-### 2025. 03. 13.
+<a id="march-13-2025"></a>
+### 2025. 03. 13. { #march-13-2025 }
 
+<a id="march-13-2025-feature-updates"></a>
 #### 기능 개선
 
 ##### Service Gateway
@@ -72,6 +78,7 @@
 - 라우트에 설명 항목이 추가되었습니다. 라우트 생성 또는 변경 시 값을 입력할 수 있으며, 라우트 정보에 표시됩니다.
 - 라우트의 CIDR, 게이트웨이 항목을 변경하는 기능이 추가되었습니다.
 
-### 2025. 01. 24.
+<a id="january-24-2025"></a>
+### 2025. 01. 24. { #january-24-2025 }
 
 - 신규 서비스 출시
