@@ -56,7 +56,7 @@
 <a id="december-2-2025-feature-updates"></a>
 #### 기능 개선
 
-##### Load Balancer 
+##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
 
 <a id="may-29-2025"></a>
@@ -69,7 +69,7 @@
 
 - 보안 규칙 대량 생성, 보안 규칙 목록 다운로드 기능이 추가되었습니다.
 
-##### Floating IPㅎ
+##### Floating IP
 
 - 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
 
@@ -126,7 +126,7 @@
 <a id="june-4-2024-added-features"></a>
 #### 기능 추가
 
-#### Load Balancer
+##### Load Balancer
 
 - L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-ncgn/)를 참고하세요.
 

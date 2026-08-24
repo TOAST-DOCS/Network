@@ -58,7 +58,7 @@
 <a id="december-2-2025"></a>
 ### 2025. 12. 02. { #december-2-2025 }
 <a id="december-2-2025-added-features"></a>
-#### 기능 추가 
+#### 기능 추가
 
 ##### Service Gateway
 * Service Gateway 생성 시 사용자가 NAT IP를 고정하여 생성할 수 있도록 개선되었습니다.
@@ -70,7 +70,7 @@
 <a id="december-2-2025-feature-updates"></a>
 #### 기능 개선
 
-##### Load Balancer 
+##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
 
 <a id="december-2-2025-december-2-2025-feature-updates"></a>
@@ -173,14 +173,14 @@
 ##### Network ACL, NAT Instance, Transit Hub, Colocation Gateway, NAT Gateway, Service Gateway, Traffic Mirroring, Private DNS
 * 한국(판교) 리전에 기능이 추가되었습니다.
 
-#### Load Balancer
+##### Load Balancer
 * L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-gov/)를 참고해 주세요.
 
 <a id="may-28-2024"></a>
 ### 2024. 05. 28. { #may-28-2024 }
 
 <a id="may-28-2024-added-features"></a>
-#### 기능 추가 
+#### 기능 추가
 
 ##### DNS Plus
 * GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
@@ -251,7 +251,7 @@
 ### 2023. 04. 04. { #april-4-2023 }
 
 <a id="april-4-2023-feature-updates"></a>
-#### 기능 개선 
+#### 기능 개선
 
 ##### VPC
 
