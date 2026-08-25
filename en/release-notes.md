@@ -3,6 +3,31 @@
 <a id="network-release-notes"></a>
 ## Network > Release Notes { #network-release-notes }
 
+<a id="august-25-2026"></a>
+### 2026. 08. 25. { #august-25-2026 }
+
+#### Added Features
+
+##### Service Gateway
+* Added the custom endpoint feature. If the user publishes his own load balancer on the endpoint, he can access it via Service Gateway from another project without an internet connection.
+	* Custom endpoint is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
+
+##### Load Balancer
+* Added the feature for HTTP/2 support. It is available when the listener protocol is TERMINATED_HTTPS and the member group protocol is HTTP or HTTP_REENCRYPT.
+	* You can select the protocol version on the screen for listener and member group settings. HTTP/1 is the default.
+* Added the feature to select the load balancer engine version (`v1`/`v2`). A new load balancer is created with the latest version (`v2`), and the engine version can be changed by load balancer type.                                             
+    * Since some actions, including HTTP traffic handling, can be different by engine version, you must apply the version to the operating environment after verifying it.
+* See [Load Balancer Console User Guide](/Network/Load%20Balancer/en/console-guide/).
+
+#### Feature Updates
+
+##### Flow Log
+* The timezone template variable (`#{timezone}`) can be added as an option in customizing the Flow Log file name.
+    * When customizing a file name, timezone is displayed on the file name if `#{timezone}` variable is included and is not displayed if the variable is not included.
+    * The default file name includes the timezone as the existing file name. The timezone value is chosen by region (KST for the Korea region).
+    * See [Flow Log Console User Guide](/Network/Flow%20Log/en/console-guide/).
+
+
 <a id="may-27-2026"></a>
 ### May 27, 2026 { #may-27-2026 }
 
