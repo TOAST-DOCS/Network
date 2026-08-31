@@ -130,10 +130,6 @@
 
 - L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-ngsc/)를 참고하세요.
 
-##### Service Gateway
-
-- Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api-ncgn/)를 참고하세요.
-
 <a id="june-4-2024-feature-updates"></a>
 #### 기능 개선
 
