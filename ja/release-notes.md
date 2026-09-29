@@ -62,16 +62,6 @@
 ##### VPC
 * ネットワークサービス連携のサポートのため、VPC の内部トラフィック処理方式が一部変更されました。新規作成される VPC から適用されます。
 
-<a id="april-14-2026"></a>
-### 2026. 04. 14. { #april-14-2026 }
-
-<a id="april-14-2026-added-features"></a>
-#### 機能追加
-
-##### DNS Plus
-* API v2.0 追加
-    * User Access Key トークンをサポートします。
-
 <a id="november-25-2025"></a>
 ### 2025. 11. 25. { #november-25-2025 }
 
@@ -96,12 +86,6 @@
 
 ##### Load Balancer
 * 複数のSSL証明書の登録・管理機能がコンソールでサポートされます。
-
-<a id="november-25-2025-november-25-2025-feature-updates"></a>
-#### 機能変更
-
-##### DNS Plus
-* TXTレコードセットタイプのレコード値の最大長を255バイトから4096バイトに変更しました。
 
 <a id="august-26-2025"></a>
 ### 2025. 08. 26. { #august-26-2025 }
@@ -154,15 +138,6 @@
 
 ##### Flow Log
 * Flow Log のファイルを OBS に保存する際、フォルダとファイル名を自由に編集できるよう改善されました。
-
-<a id="april-29-2025"></a>
-### 2025. 04. 29. { #april-29-2025 }
-
-<a id="april-29-2025-feature-updates"></a>
-#### 機能変更
-
-##### DNS Plus
-* レコードセットの TTL の最小値を 1 から 10 に変更しました。
 
 <a id="march-4-2025"></a>
 ### 2025. 03. 04. { #march-4-2025 }
@@ -246,9 +221,6 @@
 ##### Service Gateway
 * Public APIにService Gateway関連APIが追加されました。[Service Gateway APIガイド](/Network/Service%20Gateway/ja/public-api/)を参照してください。
 
-##### DNS Plus
-* GSLBヘルスチェックで、ヘルスチェックリクエストのヘッダー、ヘルスチェック周期、最大応答待機時間、最大再試行回数の設定機能が追加されました。
-
 <a id="may-28-2024-feature-updates"></a>
 #### 機能改善
 
@@ -263,16 +235,6 @@
 
 ##### Transit Hub
 * Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ja/public-api/)を参照してください。
-
-<a id="march-12-2024"></a>
-### 2024. 03. 12. { #march-12-2024 }
-
-<a id="march-12-2024-feature-updates"></a>
-#### 機能改善
-
-##### DNS Plus
-* SPFレコードセットタイプのサポートが中止されました。TXTレコードセットタイプで代わりに使用できます。
-    * 詳細については、[[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)で確認できます。
 
 <a id="february-27-2024"></a>
 ### 2024. 02. 27. { #february-27-2024 }
@@ -488,16 +450,6 @@
 
 * TERMINATED_HTTPS プロトコルを使用するロードバランサーで TLS 1.3 バージョンを使用できるように改善されました。
 
-<a id="august-24-2021"></a>
-### 2021. 08. 24. { #august-24-2021 }
-
-<a id="august-24-2021-added-features"></a>
-#### 機能追加
-
-##### DNS Plus
-
-* レコードセットの一括作成機能が追加されました。
-
 <a id="april-27-2021"></a>
 ### 2021. 04. 27. { #april-27-2021 }
 
@@ -546,16 +498,6 @@
 ##### Network Interface
 
 * Network Interface 機能が追加されました。
-
-<a id="september-22-2020"></a>
-### 2020. 09. 22. { #september-22-2020 }
-
-<a id="september-22-2020-feature-updates"></a>
-#### 機能改善
-
-##### DNS Plus
-
-* レコードセット編集時にレコードセットタイプの変更が可能になるよう改善されました。
 
 <a id="august-25-2020"></a>
 ### 2020. 08. 25. { #august-25-2020 }
@@ -620,26 +562,6 @@
 
 * セキュリティグループルールに「説明」項目が追加されました。セキュリティグループルールごとに説明を追加できます。
 
-<a id="december-24-2019"></a>
-### 2019. 12. 24. { #december-24-2019 }
-
-<a id="december-24-2019-added-features"></a>
-#### 機能追加
-
-##### DNS Plus
-
-* エンドポイントサーバーのトラフィックを安定的にロードバランシングできるGSLB(Global Server Load Balancing)機能が追加されました。
-* 生成されるGSLBドメインは、ルーティングルールに従ってDR(Disaster Recovery)、ランダムロードバランシング、グローバルロードバランシングで構成できます。
-* Poolはルーティングルールを適用できる最小単位で、エンドポイントサーバーをグループ化する要素です。
-* 定期的にPoolに含まれるエンドポイントサーバーにヘルスチェックを実行し、安定したサービスを提供できます。ヘルスチェックはHTTP/HTTPS/TCPをサポートします。
-
-<a id="december-24-2019-feature-updates"></a>
-#### 機能改善
-
-##### DNS Plus
-
-* レコードセットの作成/修正時に、CNAMEレコードセットタイプをユーザーのGSLBドメインを選択して入力できるように改善されました。
-
 <a id="december-17-2019"></a>
 ### 2019. 12. 17. { #december-17-2019 }
 
@@ -667,22 +589,6 @@
 
 * [韓国/日本リージョン] TERMINATED_HTTPSロードバランサーにクライアントと通信するTLSバージョンを指定できます。
     * ロードバランサーのTLSバージョン設定機能の詳細については、[ユーザーガイド](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)を参照してください。
-
-##### DNS Plus
-
-* レコードセットの最大作成可能数を追加しました。DNS Zoneあたりレコードセットは最大5,000個まで作成できます。
-* レコードセットの統計照会時に、CNAMEレコードセットタイプはAレコードセットタイプとAAAAレコードセットタイプをあわせて照会するように修正しました。
-
-<a id="june-25-2019"></a>
-### 2019. 06. 25. { #june-25-2019 }
-
-<a id="june-25-2019-new-service-launch"></a>
-#### 新規サービスリリース
-
-##### DNS Plus
-
-* DNS Plusはドメイン管理機能を提供するサービスです。
-* DNSサーバーを簡単に設定できます。
 
 <a id="may-30-2019"></a>
 ### 2019. 05. 30. { #may-30-2019 }
