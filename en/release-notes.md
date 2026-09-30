@@ -285,7 +285,7 @@
 
 ##### Load Balancer
 * Added deletion protection for load balancers.
-* Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/).
+* Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](/Network/Load%20Balancer/en/public-api/).
 
 <a id="february-27-2024-feature-updates"></a>
 #### Feature Updates
@@ -333,11 +333,11 @@
 
 ##### VPC
 
-* Added Routing API to the Public API. For more information, see the [VPC API Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
+* Added Routing API to the Public API. For more information, see the [VPC API Guide](/Network/VPC/en/public-api/).
 
 ##### Network ACL
 
-* Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/).
+* Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](/Network/Network%20ACL/en/public-api/).
 
 <a id="may-30-2023"></a>
 ### May 30, 2023 { #may-30-2023 }
@@ -367,7 +367,7 @@
 
 ##### VPC
 
-* Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
+* Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](/Network/VPC/en/public-api/).
 
 <a id="march-28-2023-march-28-2023-feature-updates"></a>
 #### Feature Updates

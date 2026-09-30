@@ -17,7 +17,7 @@
 	* リスナーとメンバーグループの設定画面でプロトコルバージョンを選択でき、HTTP/1がデフォルトで選択されます。
 * ロードバランサーのエンジンバージョン(`v1`/`v2`)選択機能が追加されました。新規ロードバランサーは最新バージョン(`v2`)で作成され、ロードバランサーごとにエンジンバージョンを変更できます。
     *  エンジンバージョンによってHTTPトラフィック処理など一部の動作が異なる場合があるため、必ず検証してから本番環境に適用してください。
-* [Load Balancer コンソール使用ガイド](/Network/Load%20Balancer/ko/console-guide/)を参照してください。
+* [Load Balancer コンソール使用ガイド](/Network/Load%20Balancer/ja/console-guide/)を参照してください。
 
 #### 機能改善
 
@@ -25,7 +25,7 @@
 * Flow Log のファイル名カスタマイズに timezone テンプレート変数(`#{timezone}`)をオプションとして追加できます。
     * ファイル名のカスタマイズ時に `#{timezone}` 変数を含めるとファイル名に timezone が表示され、除外すると表示されません。
     * デフォルトのファイル名には、従来と同様に timezone が含まれます。timezone の値はリージョンごとに決定されます。(韓国リージョンはKST)
-    * [Flow Logコンソール使用ガイド](/Network/Flow%20Log/ko/console-guide/)を参照してください。
+    * [Flow Logコンソール使用ガイド](/Network/Flow%20Log/ja/console-guide/)を参照してください。
 
 <a id="may-27-2026"></a>
 ### 2026. 05. 27. { #may-27-2026 }
@@ -285,7 +285,7 @@
 
 ##### Load Balancer
 * ロードバランサー削除保護機能が追加されました。
-* Public APIにL7ロードバランシング関連APIが追加されました。[ロードバランサーAPIガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)を参照してください。
+* Public APIにL7ロードバランシング関連APIが追加されました。[ロードバランサーAPIガイド](/Network/Load%20Balancer/ja/public-api/)を参照してください。
 
 <a id="february-27-2024-feature-updates"></a>
 #### 機能改善/変更
@@ -333,11 +333,11 @@
 
 ##### VPC
 
-* Public API に Routing API が追加されました。詳細については、[VPC API ガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。
+* Public API に Routing API が追加されました。詳細については、[VPC API ガイド](/Network/VPC/ja/public-api/)を参照してください。
 
 ##### Network ACL
 
-* 韓国(坪村) Public API がリリースされました。詳細については、[Network ACL API ガイド](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)を参照してください。
+* 韓国(坪村) Public API がリリースされました。詳細については、[Network ACL API ガイド](/Network/Network%20ACL/ja/public-api/)を参照してください。
 
 <a id="may-30-2023"></a>
 ### 2023. 05. 30. { #may-30-2023 }
@@ -367,7 +367,7 @@
 
 ##### VPC
 
-* Public API に VPC および VPC Subnet API が追加されました。詳細については、[VPC API ユーザーガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。
+* Public API に VPC および VPC Subnet API が追加されました。詳細については、[VPC API ユーザーガイド](/Network/VPC/ja/public-api/)を参照してください。
 
 <a id="march-28-2023-march-28-2023-feature-updates"></a>
 #### 機能変更

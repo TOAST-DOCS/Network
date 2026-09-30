@@ -290,7 +290,7 @@
 
 ##### Load Balancer
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
-* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)를 참고하세요.
+* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](/Network/Load%20Balancer/ko/public-api/)를 참고하세요.
 
 <a id="february-27-2024-feature-updates"></a>
 #### 기능 개선/변경
@@ -338,11 +338,11 @@
 
 ##### VPC
 
-* Public API에 Routing API가 추가되었습니다. [VPC API 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고하세요.
+* Public API에 Routing API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api/)를 참고하세요.
 
 ##### Network ACL
 
-* 한국(평촌) Public API가 출시되었습니다. [Network ACL API 가이드](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)를 참고해 주시요.
+* 한국(평촌) Public API가 출시되었습니다. [Network ACL API 가이드](/Network/Network%20ACL/ko/public-api/)를 참고해 주시요.
 
 <a id="may-30-2023"></a>
 ### 2023. 05. 30. { #may-30-2023 }
@@ -372,7 +372,7 @@
 
 ##### VPC
 
-* Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고하세요. 
+* Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드](/Network/VPC/ko/public-api/)를 참고하세요. 
 
 <a id="march-28-2023-march-28-2023-feature-updates"></a>
 #### 기능 변경
