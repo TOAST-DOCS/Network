@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=3251e04c861f -->
+<!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
 ## Network > リリースノート { #network-release-notes }
@@ -6,6 +6,7 @@
 <a id="august-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
+<a id="august-25-2026-added-features"></a>
 #### 機能追加
 
 ##### Service Gateway
@@ -19,6 +20,7 @@
     *  エンジンバージョンによってHTTPトラフィック処理など一部の動作が異なる場合があるため、必ず検証してから本番環境に適用してください。
 * [Load Balancer コンソール使用ガイド](/Network/Load%20Balancer/ja/console-guide/)を参照してください。
 
+<a id="august-25-2026-feature-updates"></a>
 #### 機能改善
 
 ##### Flow Log
