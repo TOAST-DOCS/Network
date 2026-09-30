@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=3251e04c861f -->
+<!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
 ## Network > Release Notes { #network-release-notes }
@@ -6,6 +6,7 @@
 <a id="august-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
+<a id="august-25-2026-added-features"></a>
 #### Added Features
 
 ##### Service Gateway
@@ -19,6 +20,7 @@
     * Since some actions, including HTTP traffic handling, can be different by engine version, you must apply the version to the operating environment after verifying it.
 * See [Load Balancer Console User Guide](/Network/Load%20Balancer/en/console-guide/).
 
+<a id="august-25-2026-feature-updates"></a>
 #### Feature Updates
 
 ##### Flow Log

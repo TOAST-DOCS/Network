@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=3251e04c861f -->
+<!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
 ## Network > 릴리스 노트 { #network-release-notes }
@@ -6,6 +6,7 @@
 <a id="august-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
+<a id="august-25-2026-added-features"></a>
 #### 기능 추가
 
 ##### Service Gateway
@@ -19,6 +20,7 @@
     * 엔진 버전에 따라 HTTP 트래픽 처리 등 일부 동작이 달라질 수 있으므로, 반드시 검증한 뒤 운영 환경에 적용하세요.
 * [Load Balancer 콘솔 사용 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
+<a id="august-25-2026-feature-updates"></a>
 #### 기능 개선
 
 ##### Flow Log
