@@ -65,16 +65,6 @@
 ##### VPC
 * 네트워크 서비스 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성되는 VPC부터 적용됩니다.
 
-<a id="april-14-2026"></a>
-### 2026. 04. 14. { #april-14-2026 }
-
-<a id="april-14-2026-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-*  API v2.0 추가
-    * User Access Key 토큰을 지원합니다.
-
 <a id="november-25-2025"></a>
 ### 2025. 11. 25. { #november-25-2025 }
 
@@ -99,12 +89,6 @@
 
 ##### Load Balancer 
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
-
-<a id="november-25-2025-november-25-2025-feature-updates"></a>
-#### 기능 변경
-
-##### DNS Plus
-*  TXT 레코드 세트 타입의 레코드 값 최대 길이를 255 바이트에서 4096 바이트로 변경하였습니다.
 
 <a id="august-26-2025"></a>
 ### 2025. 08. 26. { #august-26-2025 }
@@ -157,16 +141,6 @@
 #### 기능 개선
 ##### Flow Log
 * Flow Log의 파일을 OBS에 저장할 때, 폴더와 파일 이름을 자유롭게 편집할 수 있도록 개선되었습니다.
-
-
-<a id="april-29-2025"></a>
-### 2025. 04. 29. { #april-29-2025 }
-
-<a id="april-29-2025-feature-updates"></a>
-#### 기능 변경
-
-##### DNS Plus
-* 레코드 세트 TTL의 최솟값을 1에서 10으로 변경하였습니다.
 
 
 <a id="march-4-2025"></a>
@@ -253,9 +227,6 @@
 ##### Service Gateway
 * Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고하세요.
 
-##### DNS Plus
-* GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
-
 <a id="may-28-2024-feature-updates"></a>
 #### 기능 개선
 
@@ -270,16 +241,6 @@
 
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고하세요.
-
-<a id="march-12-2024"></a>
-### 2024. 03. 12. { #march-12-2024 }
-
-<a id="march-12-2024-feature-updates"></a>
-#### 기능 개선
-
-##### DNS Plus
-* SPF 레코드 세트 타입 지원이 중단되었습니다. TXT 레코드 세트 타입으로 대신 사용할 수 있습니다.
-    * 상세 내용은 [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)에서 확인할 수 있습니다.
 
 <a id="february-27-2024"></a>
 ### 2024. 02. 27. { #february-27-2024 }
@@ -496,17 +457,6 @@
 
 * TERMINATED_HTTPS 프로토콜을 사용하는 로드 밸런서에서 TLS 1.3 버전을 사용할 수 있도록 개선되었습니다.
 
-<a id="august-24-2021"></a>
-### 2021. 08. 24. { #august-24-2021 }
-
-<a id="august-24-2021-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-
-* 레코드 세트 대량 생성 기능이 추가되었습니다.
-
-
 <a id="april-27-2021"></a>
 ### 2021. 04. 27. { #april-27-2021 }
 
@@ -557,16 +507,6 @@
 
 ##### Network Interface
 * Network Interface 기능이 추가되었습니다.
-
-<a id="september-22-2020"></a>
-### 2020. 09. 22. { #september-22-2020 }
-
-<a id="september-22-2020-feature-updates"></a>
-#### 기능 개선
-
-##### DNS Plus
-
-* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
 
 <a id="august-25-2020"></a>
 ### 2020. 08. 25. { #august-25-2020 }
@@ -631,26 +571,6 @@
 
 * 보안 그룹 규칙에 "설명" 항목이 추가되었습니다. 보안 그룹 규칙별로 설명을 추가할 수 있습니다.
 
-<a id="december-24-2019"></a>
-### 2019. 12. 24. { #december-24-2019 }
-
-<a id="december-24-2019-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-
-* 엔드포인트 서버의 트래픽을 안정적으로 로드밸런싱 할 수 있는 GSLB(Global Server Load Balancing) 기능이 추가되었습니다.
-* 생성되는 GSLB 도메인은 라우팅 규칙에 따라 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
-* Pool은 라우팅 규칙을 적용할 수 있는 최소 단위로 엔드포인트 서버를 그룹핑하는 요소입니다.
-* 주기적으로 Pool에 포함된 엔드포인트 서버에 헬스 체크를 수행하여 안정적인 서비스를 지원할 수 있습니다. 헬스 체크는 HTTP/HTTPS/TCP를 지원합니다.
-
-<a id="december-24-2019-feature-updates"></a>
-#### 기능 개선
-
-##### DNS Plus
-
-* 레코드 세트 생성/수정 시 CNAME 레코드 세트 타입을 사용자의 GSLB 도메인을 선택하여 입력할 수 있도록 개선되었습니다.
-
 <a id="december-17-2019"></a>
 ### 2019. 12. 17. { #december-17-2019 }
 
@@ -678,22 +598,6 @@
 
 * [한국/일본 리전] TERMINATED_HTTPS 로드밸런서에 클라이언트와 통신할 TLS 버전을 지정할 수 있습니다.
     * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고하세요.
-
-##### DNS Plus
-
-* 레코드 세트의 최대 생성 가능 개수를 추가했습니다. DNS Zone당 레코드 세트는 최대 5,000개까지 생성할 수 있습니다.
-* 레코드 세트 통계 조회 시 CNAME 레코드 세트 타입은 A 레코드 세트 타입과 AAAA 레코드 세트 타입을 같이 조회하도록 수정했습니다.
-
-<a id="june-25-2019"></a>
-### 2019. 06. 25. { #june-25-2019 }
-
-<a id="june-25-2019-new-service-launch"></a>
-#### 신규 상품 출시
-
-##### DNS Plus
-
-* DNS Plus는 도메인 관리 기능을 제공하는 서비스입니다.
-* DNS 서버를 간편하게 설정할 수 있습니다.
 
 <a id="may-30-2019"></a>
 ### 2019. 05. 30. { #may-30-2019 }
