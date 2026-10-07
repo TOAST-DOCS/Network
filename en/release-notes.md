@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
@@ -72,23 +74,23 @@
 #### Added Features
 
 ##### VPN Gateway
-* When you connect a Transit Hub to a VPC with a VPN connection, VPN communication with on-premises networks is also supported from VPCs of other projects connected via the Transit Hub. (An additional VPN Connection must be created for the connected bandwidth.)
+* When you attach a Transit Hub to a VPC with a VPN connection, VPN communication with the on-premises network is also supported from VPCs in other projects connected through the Transit Hub. (An additional VPN connection must be created for the connected bandwidth.)
 
 ##### Service Gateway
-* Improved so that you can create a Service Gateway with a fixed NAT IP.
+* Improved so that you can create Service Gateway by fixing the NAT IP address.
 
 ##### Traffic Mirroring
 * Added Traffic Mirroring-related APIs to the Public API. See the [Traffic Mirroring API Guide](/Network/Traffic%20Mirroring/en/public-api/).
 
 ##### Load Balancer
 * Added the custom response configuration feature per listener.
-* Added the feature to enable/disable X-Forwarded-* headers.
+* Added the ability to enable or disable X-Forwarded-* headers.
 
 <a id="november-25-2025-feature-updates"></a>
 #### Feature Updates
 
 ##### Load Balancer
-* Multiple SSL certificate registration/management is now supported in the console.
+* Multiple SSL certificate registration/management is now supported in the Console.
 
 <a id="august-26-2025"></a>
 ### August 26, 2025 { #august-26-2025 }
@@ -211,13 +213,13 @@
 #### Added Features
 
 ##### Load Balancer
-* Added L7 load balancing. See the [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
+* Added the L7 load balancing feature. See the [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
 
 ##### VPN Gateway
-* Added the Cisco - Firepower 1000 Series to the list of supported peer gateway devices.
+* Added Cisco - Firepower 1000 Series to peer gateway devices.
 
 ##### Network ACL
-* Added the Network ACL feature in the Korea (Pangyo) region.
+* Added the Network ACL feature to the Korea (Pangyo) region.
 * Integrated Network ACL with CloudTrail.
 
 ##### Service Gateway
