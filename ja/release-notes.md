@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
@@ -71,7 +73,7 @@
 #### 機能追加
 
 ##### VPN Gateway
-* VPNが接続されたVPCにTransit Hubを接続すると、Transit Hubに接続された他のプロジェクトのVPCからもオンプレミスネットワークとのVPN通信をサポートします。（接続された帯域にVPN Connectionの追加作成が必要）
+* VPNが接続されたVPCにTransit Hubを接続すると、Transit Hubで接続された他のプロジェクトのVPCからもオンプレミスネットワークとのVPN通信をサポートします。(接続されたIPアドレス範囲へのVPN Connectionは追加作成が必要です)
 
 ##### Service Gateway
 * Service Gateway作成時に、ユーザーがNAT IPを固定して作成できるよう改善されました。
@@ -87,7 +89,7 @@
 #### 機能改善
 
 ##### Load Balancer
-* 複数のSSL証明書の登録・管理機能がコンソールでサポートされます。
+* 複数のSSL証明書登録・管理機能がコンソールでサポートされます。
 
 <a id="august-26-2025"></a>
 ### 2025. 08. 26. { #august-26-2025 }
@@ -214,7 +216,7 @@
 * L7ロードバランシング機能が追加されました。[ロードバランサーユーザーガイド](/Network/Load%20Balancer/ja/console-guide/)を参照してください。
 
 ##### VPN Gateway
-* ピアゲートウェイ装置にCisco - Firepower 1000 Seriesが追加されました。
+* ピアゲートウェイ機器にCisco - Firepower 1000 Seriesが追加されました。
 
 ##### Network ACL
 * 韓国(パンギョ)リージョンにNetwork ACL機能が追加されました。
