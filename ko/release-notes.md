@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=ebf04a2d1b9a -->
+<!-- pre-align:aligned sig=4c0623ca41a2 -->
 
 <a id="network-release-notes"></a>
 ## Network > 릴리스 노트 { #network-release-notes }
