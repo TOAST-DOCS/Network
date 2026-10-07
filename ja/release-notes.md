@@ -1,6 +1,6 @@
 <!-- machine_translated: true -->
 
-<!-- pre-align:aligned sig=ebf04a2d1b9a -->
+<!-- pre-align:aligned sig=4c0623ca41a2 -->
 
 <a id="network-release-notes"></a>
 ## Network > リリースノート { #network-release-notes }
