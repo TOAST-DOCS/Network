@@ -1,4 +1,4 @@
-<!-- pre-align:aligned sig=3251e04c861f -->
+<!-- pre-align:aligned sig=ebf04a2d1b9a -->
 
 <a id="network-release-notes"></a>
 ## Network > Release Notes { #network-release-notes }
@@ -6,6 +6,7 @@
 <a id="august-25-2026"></a>
 ### 2026. 08. 25. { #august-25-2026 }
 
+<a id="august-25-2026-added-features"></a>
 #### Added Features
 
 ##### Service Gateway
@@ -19,6 +20,7 @@
     * Since some actions, including HTTP traffic handling, can be different by engine version, you must apply the version to the operating environment after verifying it.
 * See [Load Balancer Console User Guide](/Network/Load%20Balancer/en/console-guide/).
 
+<a id="august-25-2026-feature-updates"></a>
 #### Feature Updates
 
 ##### Flow Log
@@ -63,16 +65,6 @@
 ##### VPC
 * The internal traffic handling method for VPCs has been partially changed to support network service integration. This applies to newly created VPCs.
 
-<a id="april-14-2026"></a>
-### April 14, 2026 { #april-14-2026 }
-
-<a id="april-14-2026-added-features"></a>
-#### Added Features
-
-##### DNS Plus
-* Added API v2.0
-    * Supports User Access Key tokens.
-
 <a id="november-25-2025"></a>
 ### November 25, 2025 { #november-25-2025 }
 
@@ -97,12 +89,6 @@
 
 ##### Load Balancer
 * Multiple SSL certificate registration/management is now supported in the console.
-
-<a id="november-25-2025-november-25-2025-feature-updates"></a>
-#### Feature Updates
-
-##### DNS Plus
-* Changed the maximum length of record values for TXT record set types from 255 bytes to 4,096 bytes.
 
 <a id="august-26-2025"></a>
 ### August 26, 2025 { #august-26-2025 }
@@ -154,15 +140,6 @@
 #### Feature Updates
 ##### Flow Log
 * Improved so that you can freely edit folder and file names when saving Flow Log files to OBS.
-
-<a id="april-29-2025"></a>
-### April 29, 2025 { #april-29-2025 }
-
-<a id="april-29-2025-feature-updates"></a>
-#### Feature Updates
-
-##### DNS Plus
-* Changed the minimum value of the record set TTL from 1 to 10.
 
 <a id="march-4-2025"></a>
 ### March 4, 2025 { #march-4-2025 }
@@ -246,9 +223,6 @@
 ##### Service Gateway
 * Added Service Gateway-related APIs to the Public API. See the [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
 
-##### DNS Plus
-* Added the feature to set the header for health check requests, health check cycle, maximum response latency, and maximum number of retries in GSLB health checks.
-
 <a id="may-28-2024-feature-updates"></a>
 #### Feature Updates
 
@@ -264,16 +238,6 @@
 ##### Transit Hub
 * Added Transit Hub-related APIs to the Public API. See the [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
 
-<a id="march-12-2024"></a>
-### March 12, 2024 { #march-12-2024 }
-
-<a id="march-12-2024-feature-updates"></a>
-#### Feature Updates
-
-##### DNS Plus
-* Stopped support for the SPF record set type. You can use the TXT record set type instead.
-    * For more information, see [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1).
-
 <a id="february-27-2024"></a>
 ### February 27, 2024 { #february-27-2024 }
 
@@ -285,7 +249,7 @@
 
 ##### Load Balancer
 * Added deletion protection for load balancers.
-* Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/).
+* Added L7 load balancing-related APIs to the Public API. See the [Load Balancer API Guide](/Network/Load%20Balancer/en/public-api/).
 
 <a id="february-27-2024-feature-updates"></a>
 #### Feature Updates
@@ -333,11 +297,11 @@
 
 ##### VPC
 
-* Added Routing API to the Public API. For more information, see the [VPC API Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
+* Added Routing API to the Public API. For more information, see the [VPC API Guide](/Network/VPC/en/public-api/).
 
 ##### Network ACL
 
-* Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/).
+* Released the Public API for Korea (Pyeongchon). For more information, see the [Network ACL API Guide](/Network/Network%20ACL/en/public-api/).
 
 <a id="may-30-2023"></a>
 ### May 30, 2023 { #may-30-2023 }
@@ -367,7 +331,7 @@
 
 ##### VPC
 
-* Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/).
+* Added VPC and VPC Subnet APIs to the Public API. For more information, see the [VPC API User Guide](/Network/VPC/en/public-api/).
 
 <a id="march-28-2023-march-28-2023-feature-updates"></a>
 #### Feature Updates
@@ -488,16 +452,6 @@
 
 * Improved load balancers using the TERMINATED_HTTPS protocol to support TLS 1.3.
 
-<a id="august-24-2021"></a>
-### August 24, 2021 { #august-24-2021 }
-
-<a id="august-24-2021-added-features"></a>
-#### Added Features
-
-##### DNS Plus
-
-* Added the ability to create record sets in bulk.
-
 <a id="april-27-2021"></a>
 ### April 27, 2021 { #april-27-2021 }
 
@@ -546,16 +500,6 @@
 ##### Network Interface
 
 * Added the Network Interface feature.
-
-<a id="september-22-2020"></a>
-### September 22, 2020 { #september-22-2020 }
-
-<a id="september-22-2020-feature-updates"></a>
-#### Feature Updates
-
-##### DNS Plus
-
-* Improved the record set editing feature to allow modification of the record set type.
 
 <a id="august-25-2020"></a>
 ### August 25, 2020 { #august-25-2020 }
@@ -620,26 +564,6 @@
 
 * Added a "Description" field to security group rules. You can now add a description to each security group rule.
 
-<a id="december-24-2019"></a>
-### December 24, 2019 { #december-24-2019 }
-
-<a id="december-24-2019-added-features"></a>
-#### Added Features
-
-##### DNS Plus
-
-* Added the GSLB (global server load balancing) feature that allows reliable load balancing of traffic of an endpoint server.
-* The created GSLB domain can be configured with DR (disaster recovery), random load balancing, or global load balancing according to the routing rule.
-* A pool is the smallest unit to which routing rules can be applied, and it groups endpoint servers together.
-* Supports reliable services by periodically performing health checks on the endpoint servers included in the pool. Health check supports HTTP, HTTPS, and TCP.
-
-<a id="december-24-2019-feature-updates"></a>
-#### Feature Updates
-
-##### DNS Plus
-
-* Made improvements so that, when creating or modifying record sets, users can enter the CNAME record set type by selecting from their own GSLB domains.
-
 <a id="december-17-2019"></a>
 ### December 17, 2019 { #december-17-2019 }
 
@@ -668,22 +592,6 @@
 
 * [Korea/Japan region] You can now specify the TLS version for communication with clients on a TERMINATED_HTTPS load balancer.
     * For more information about the load balancer TLS version setting feature, see the [User Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls).
-
-##### DNS Plus
-
-* Added the maximum number of record sets that can be created. You can create up to 5,000 record sets per DNS Zone.
-* Made a modification so that, when querying record set statistics, query for the CNAME record set type retrieves the A record set type and the AAAA record set type as well.
-
-<a id="june-25-2019"></a>
-### June 25, 2019 { #june-25-2019 }
-
-<a id="june-25-2019-new-service-launch"></a>
-#### New Service Launch
-
-##### DNS Plus
-
-* DNS Plus is a service that provides domain management features.
-* You can configure DNS servers.
 
 <a id="may-30-2019"></a>
 ### May 30, 2019 { #may-30-2019 }

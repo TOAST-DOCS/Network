@@ -45,16 +45,6 @@
 * 네트워크 서비스 연동 지원을 위해 VPC의 내부 트래픽 처리 방식이 일부 변경되었습니다. 신규 생성되는 VPC부터 적용됩니다.
 
 
-<a id="april-14-2026"></a>
-### 2026. 04. 14. { #april-14-2026 }
-
-<a id="april-14-2026-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-*  API v2.0 추가
-    * User Access Key 토큰을 지원합니다.
-
 <a id="december-2-2025"></a>
 ### 2025. 12. 02. { #december-2-2025 }
 <a id="december-2-2025-added-features"></a>
@@ -72,12 +62,6 @@
 
 ##### Load Balancer
 * 여러 개의 SSL 인증서 등록/관리 기능이 콘솔에서 지원됩니다. 
-
-<a id="december-2-2025-december-2-2025-feature-updates"></a>
-#### 기능 변경
-
-##### DNS Plus
-*  TXT 레코드 세트 타입의 레코드 값 최대 길이를 255 바이트에서 4096 바이트로 변경하였습니다.
 
 <a id="june-5-2025"></a>
 ### 2025. 06. 05. { #june-5-2025 }
@@ -103,16 +87,6 @@
 
 ##### Floating IP
 * 플로팅 IP에 레이블 설정 기능이 추가되었습니다. [Floating IP 콘솔 사용 가이드](/Network/Floating%20IP/ko/console-guide/)를 참고하세요.
-
-<a id="april-29-2025"></a>
-### 2025. 04. 29. { #april-29-2025 }
-
-<a id="april-29-2025-feature-updates"></a>
-#### 기능 변경
-
-##### DNS Plus
-* 레코드 세트 TTL의 최솟값을 1에서 10으로 변경하였습니다.
-
 
 <a id="march-11-2025"></a>
 ### 2025. 03. 11. { #march-11-2025 }
@@ -175,25 +149,6 @@
 
 ##### Load Balancer
 * L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-gov/)를 참고해 주세요.
-
-<a id="may-28-2024"></a>
-### 2024. 05. 28. { #may-28-2024 }
-
-<a id="may-28-2024-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-* GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
-
-<a id="march-12-2024"></a>
-### 2024. 03. 12. { #march-12-2024 }
-
-<a id="march-12-2024-feature-updates"></a>
-#### 기능 개선
-
-##### DNS Plus
-* SPF 레코드 세트 타입 지원이 중단되었습니다. TXT 레코드 세트 타입으로 대신 사용할 수 있습니다.
-    * 상세 내용은 [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)에서 확인할 수 있습니다.
 
 <a id="february-29-2024"></a>
 ### 2024. 02. 29. { #february-29-2024 }
@@ -307,17 +262,6 @@
 
 * TERMINATED_HTTPS 프로토콜을 사용하는 로드 밸런서에서 TLS 1.3 버전을 사용할 수 있도록 개선되었습니다.
 
-<a id="december-7-2021"></a>
-### 2021. 12. 07. { #december-7-2021 }
-
-<a id="december-7-2021-added-features"></a>
-#### 기능 추가
-
-##### DNS Plus
-
-* 레코드 세트 대량 생성 기능이 추가되었습니다.
-
-
 <a id="july-2-2021"></a>
 ### 2021. 07. 02. { #july-2-2021 }
 
@@ -347,13 +291,6 @@
 * 라우팅 테이블의 라우트 생성 창에서 게이트웨이 항목에 IP를 직접 입력하는 방식을 IP를 소유한 장치를 선택하는 방식으로 변경했습니다. 라우팅 테이블에 명시적으로 연결하지 않은 서브넷의 장치도 선택할 수 있습니다.
 * 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
 
-
-<a id="november-3-2020-november-3-2020-feature-updates"></a>
-#### 기능 개선
-
-##### DNS Plus
-
-* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
 
 <a id="november-3-2020-added-features"></a>
 #### 기능 추가
@@ -390,18 +327,6 @@
 * 로드 밸런서가 속한 VPC가 피어링(peering) 연결되어 있다면, 피어 VPC에 속한 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 피어 VPC의 기본 라우팅 테이블에 연결된 서브넷의 인스턴스만 연결할 수 있습니다.
 * 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
 * Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
-
-<a id="april-7-2020"></a>
-### 2020. 04. 07. { #april-7-2020 }
-
-<a id="april-7-2020-new-service-launch"></a>
-#### 신규 상품 출시
-
-##### DNS Plus
-
-* DNS Plus는 도메인 관리 기능과 서버의 트래픽을 안정적으로 로드벨런싱하는 기능을 제공합니다.
-* DNS(Domain Name System)로 도메인을 간편하게 설정하고 관리할 수 있습니다.
-* GSLB(Global Server Load Balancing)로 라우팅 규칙에 따라 엔드포인트 서버를 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
 
 <a id="march-10-2020"></a>
 ### 2020. 03. 10. { #march-10-2020 }
