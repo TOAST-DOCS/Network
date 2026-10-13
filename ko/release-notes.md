@@ -469,7 +469,7 @@
 
 ##### Load Balancer
 
-* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고하세요.
+* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고하세요.
 
 
 <a id="march-23-2021"></a>
@@ -520,7 +520,7 @@
 
 ##### Load Balancer
 
-* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고하세요.
+* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고하세요.
 
 <a id="june-23-2020"></a>
 ### 2020. 06. 23. { #june-23-2020 }
@@ -597,7 +597,7 @@
 ##### Load Balancer
 
 * [한국/일본 리전] TERMINATED_HTTPS 로드밸런서에 클라이언트와 통신할 TLS 버전을 지정할 수 있습니다.
-    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고하세요.
+    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고하세요.
 
 <a id="may-30-2019"></a>
 ### 2019. 05. 30. { #may-30-2019 }
