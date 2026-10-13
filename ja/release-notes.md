@@ -464,7 +464,7 @@
 
 ##### Load Balancer
 
-* [韓国 坪村 リージョン] 物理ロードバランサーをオンラインで作成できます。既存のロードバランサーとの変更点については、[ロードバランサーガイド](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)を参照してください。
+* [韓国 坪村 リージョン] 物理ロードバランサーをオンラインで作成できます。既存のロードバランサーとの変更点については、[ロードバランサーガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)を参照してください。
 
 <a id="march-23-2021"></a>
 ### 2021. 03. 23. { #march-23-2021 }
@@ -513,7 +513,7 @@
 
 ##### Load Balancer
 
-* Public API v2 が IP アクセス制御機能をサポートします。詳細については、[ロードバランサー API ガイド](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)を参照してください。
+* Public API v2 が IP アクセス制御機能をサポートします。詳細については、[ロードバランサー API ガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)を参照してください。
 
 <a id="june-23-2020"></a>
 ### 2020. 06. 23. { #june-23-2020 }
@@ -590,7 +590,7 @@
 ##### Load Balancer
 
 * [韓国/日本リージョン] TERMINATED_HTTPSロードバランサーにクライアントと通信するTLSバージョンを指定できます。
-    * ロードバランサーのTLSバージョン設定機能の詳細については、[ユーザーガイド](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)を参照してください。
+    * ロードバランサーのTLSバージョン設定機能の詳細については、[ユーザーガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)を参照してください。
 
 <a id="may-30-2019"></a>
 ### 2019. 05. 30. { #may-30-2019 }

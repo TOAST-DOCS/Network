@@ -464,7 +464,7 @@
 
 ##### Load Balancer
 
-* [Korea Pyeongchon region] Added the ability to create a physical load balancer online. For changes compared to the existing load balancer, see the [Load Balancer Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19).
+* [Korea Pyeongchon region] Added the ability to create a physical load balancer online. For changes compared to the existing load balancer, see the [Load Balancer Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/console-guide/#_19).
 
 <a id="march-23-2021"></a>
 ### March 23, 2021 { #march-23-2021 }
@@ -513,7 +513,7 @@
 
 ##### Load Balancer
 
-* Added IP access control support to Public API v2. For more information, see the [Load Balancer API Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl).
+* Added IP access control support to Public API v2. For more information, see the [Load Balancer API Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl).
 
 <a id="june-23-2020"></a>
 ### June 23, 2020 { #june-23-2020 }
@@ -591,7 +591,7 @@
 ##### Load Balancer
 
 * [Korea/Japan region] You can now specify the TLS version for communication with clients on a TERMINATED_HTTPS load balancer.
-    * For more information about the load balancer TLS version setting feature, see the [User Guide](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls).
+    * For more information about the load balancer TLS version setting feature, see the [User Guide](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/overview/#ssltls).
 
 <a id="may-30-2019"></a>
 ### May 30, 2019 { #may-30-2019 }
