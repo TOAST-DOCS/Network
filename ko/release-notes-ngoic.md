@@ -42,7 +42,7 @@
 
 ##### Private DNS
 
-- Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api-ngoic)를 참고하세요.
+- Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api/)를 참고하세요.
 
 ##### Flow Log
 

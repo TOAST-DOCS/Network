@@ -14,7 +14,7 @@
 * Public API에 Load Balancer 관련 API가 추가되었습니다. [Load Balancer API 가이드](/Network/Load%20Balancer/ko/public-api-ngsc/)를 참고하세요.
 
 ##### Private DNS
-* Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api-ngsc/)를 참고하세요.
+* Public API에 Private DNS 관련 API가 추가되었습니다. [Private DNS API 가이드](/Network/Private%20DNS/ko/public-api/)를 참고하세요.
 
 ##### Flow Log
 * Region peering gateway, Project peering gateway, Colocation gateway, 로드 밸런서의 네트워크 인터페이스를 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
